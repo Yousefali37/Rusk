@@ -131,9 +131,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
     ? selectedTop?.subcategories?.find((s) => s.id === selection.subId) || null
     : null
 
-  // category page is driven by the selected category (falling back to the first one)
-  const page = selection.topId ? Math.max(0, tops.findIndex((t) => t.id === selection.topId)) : 0
-  const currentTop = tops[page] || null
+  const currentTop = selectedTop || tops[0] || null
 
   const q = search.trim().toLowerCase()
   const filterPrice = (p) =>
@@ -143,19 +141,23 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
 
   const countText = q ? `${filteredAll.length} result${filteredAll.length === 1 ? '' : 's'}` : null
 
-  const PER_PAGE = 18
+  const PER_PAGE = 8
   const totalSearchPages = Math.max(1, Math.ceil(filteredAll.length / PER_PAGE))
   const sp = Math.min(searchPage, totalSearchPages - 1)
+
+  const pageItems = currentTop ? currentTop.products || [] : []
+  const catPages = Math.max(1, Math.ceil(pageItems.length / PER_PAGE))
+  const itemPage = Math.min(selection.itemPage || 0, catPages - 1)
 
   const handleSearch = (value) => {
     setSearchPage(0)
     onSearchChange(value)
   }
 
-  const goTo = (i) => {
-    if (tops.length === 0) return
-    const idx = Math.min(Math.max(0, i), tops.length - 1)
-    onSelect({ topId: tops[idx].id, subId: null })
+  const setItemPage = (i) => {
+    if (!currentTop) return
+    const idx = Math.min(Math.max(0, i), catPages - 1)
+    onSelect({ topId: currentTop.id, subId: null, itemPage: idx })
   }
 
   useEffect(() => {
@@ -179,8 +181,8 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
               Taste the <em>Menu</em>
             </h2>
             <p>
-              Browse the menu category by category with the arrows below, or use the filter to jump
-              straight to a favourite. Every plate is made fresh at Brown Cafe in West Walk, Qatar.
+              Pick a category to browse it, then flip through the pagination for more dishes. Every
+              plate is made fresh at Brown Cafe in West Walk, Qatar.
             </p>
           </Reveal>
         </div>
@@ -213,7 +215,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                   <button
                     type="button"
                     className="active-chip"
-                    onClick={() => onSelect({ topId: null, subId: null })}
+                    onClick={() => onSelect({ topId: null, subId: null, itemPage: 0 })}
                   >
                     <span>{selectedTop.name}</span>
                     <span className="active-chip-count">{countTop(selectedTop)}</span>
@@ -295,7 +297,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                             type="button"
                             className={`chip ${selection.topId === top.id ? 'active' : ''}`}
                             onClick={() => {
-                              onSelect({ topId: top.id, subId: null })
+                              onSelect({ topId: top.id, subId: null, itemPage: 0 })
                               if (already || !hasSubs) setOpen(false)
                             }}
                           >
@@ -376,45 +378,47 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
           ) : (
             <div className="menu-groups">
               {currentTop ? (
-                <>
-                  <PageNav
-                    page={page}
-                    total={tops.length}
-                    label={currentTop.name}
-                    onPrev={() => goTo(page - 1)}
-                    onNext={() => goTo(page + 1)}
-                  />
-                  <div className="menu-group" key={currentTop.id}>
-                    <h3 className="menu-group-title top">
-                      <span>{currentTop.name}</span>
-                      <span className="menu-group-count">{countTop(currentTop)}</span>
-                    </h3>
-                    {(currentTop.products || []).length > 0 && (
-                      <motion.div key={`top-${currentTop.id}-${page}`} {...productGridMotion}>
+                <div className="menu-group" key={currentTop.id}>
+                  <h3 className="menu-group-title top">
+                    <span>{currentTop.name}</span>
+                    <span className="menu-group-count">{countTop(currentTop)}</span>
+                  </h3>
+                  {pageItems.length > 0 && catPages > 1 && (
+                    <PageNav
+                      page={itemPage}
+                      total={catPages}
+                      label={currentTop.name}
+                      onPrev={() => setItemPage(itemPage - 1)}
+                      onNext={() => setItemPage(itemPage + 1)}
+                    />
+                  )}
+                  {pageItems.length > 0 && (
+                    <motion.div key={`top-${currentTop.id}-${itemPage}`} {...productGridMotion}>
+                      <div className="product-grid">
+                        {pageItems
+                          .slice(itemPage * PER_PAGE, itemPage * PER_PAGE + PER_PAGE)
+                          .map((p) => (
+                            <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
+                          ))}
+                      </div>
+                    </motion.div>
+                  )}
+                  {(currentTop.subcategories || []).map((g) => (
+                    <div className="menu-subgroup" key={g.id}>
+                      <h4 className="menu-subgroup-title">
+                        <span>{g.name}</span>
+                        <span className="menu-group-count">{countItems(g)}</span>
+                      </h4>
+                      <motion.div key={`s-${currentTop.id}-${g.id}`} {...productGridMotion}>
                         <div className="product-grid">
-                          {currentTop.products.map((p) => (
+                          {g.products.map((p) => (
                             <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
                           ))}
                         </div>
                       </motion.div>
-                    )}
-                    {(currentTop.subcategories || []).map((g) => (
-                      <div className="menu-subgroup" key={g.id}>
-                        <h4 className="menu-subgroup-title">
-                          <span>{g.name}</span>
-                          <span className="menu-group-count">{countItems(g)}</span>
-                        </h4>
-                        <motion.div key={`s-${currentTop.id}-${g.id}`} {...productGridMotion}>
-                          <div className="product-grid">
-                            {g.products.map((p) => (
-                              <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
-                            ))}
-                          </div>
-                        </motion.div>
-                      </div>
-                    ))}
-                  </div>
-                </>
+                    </div>
+                  ))}
+                </div>
               ) : (
                 <div className="menu-empty">
                   <p>Nothing on the pass yet — the kitchen is still waking up.</p>

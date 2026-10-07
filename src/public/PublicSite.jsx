@@ -22,7 +22,7 @@ export default function PublicSite() {
       return true
     }
   })
-  const [selection, setSelection] = useState({ topId: null, subId: null }) // tree selection (both null = full menu)
+  const [selection, setSelection] = useState({ topId: null, subId: null, itemPage: 0 }) // tree selection + current item page
   const [focusId, setFocusId] = useState(null) // product id to highlight
   const [search, setSearch] = useState('')
   const defaultApplied = useRef(false)
@@ -34,7 +34,7 @@ export default function PublicSite() {
         if (!defaultApplied.current) {
           defaultApplied.current = true
           const first = (data.menu || [])[0]
-          if (first) setSelection({ topId: first.id, subId: null })
+          if (first) setSelection({ topId: first.id, subId: null, itemPage: 0 })
         }
       })
       .catch((e) => {
@@ -97,18 +97,18 @@ export default function PublicSite() {
       let found = false
       for (const top of site.menu || []) {
         if (top.id === p.category_id) {
-          setSelection({ topId: top.id, subId: null })
+          setSelection({ topId: top.id, subId: null, itemPage: 0 })
           found = true
           break
         }
         const sub = (top.subcategories || []).find((s) => s.id === p.category_id)
         if (sub) {
-          setSelection({ topId: top.id, subId: sub.id })
+          setSelection({ topId: top.id, subId: sub.id, itemPage: 0 })
           found = true
           break
         }
       }
-      if (!found) setSelection({ topId: null, subId: null })
+      if (!found) setSelection({ topId: null, subId: null, itemPage: 0 })
     }
     const target = document.getElementById('menu')
     if (window.location.hash === '#menu') {
