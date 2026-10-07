@@ -4,31 +4,17 @@ export const DEFAULT_INSTA_HEADING = 'Follow Us on *Instagram*'
 
 export const DEFAULT_INSTA_SUBTITLE = 'Fresh bakes, perfect pours and the moments between — tagged from Brown.'
 
-const IG = 'https://www.instagram.com/browncafe.qa/'
-
 export const DEFAULT_INSTA_POSTS = [
-  { src: '/images/instagram/insta-1.webp', url: IG },
-  { src: '/images/instagram/insta-2.webp', url: IG },
-  { src: '/images/instagram/insta-3.webp', url: IG },
-  { src: '/images/instagram/insta-4.webp', url: IG },
-  { src: '/images/instagram/insta-5.webp', url: IG },
-  { src: '/images/instagram/insta-6.webp', url: IG },
-  { src: '/images/instagram/insta-7.webp', url: IG },
-  { src: '/images/instagram/insta-8.webp', url: IG },
-  { src: '/images/instagram/insta-9.webp', url: IG },
-  { src: '/images/instagram/insta-10.webp', url: IG },
-  { src: '/images/instagram/insta-11.webp', url: IG },
-  { src: '/images/instagram/insta-12.webp', url: IG },
-  { src: '/images/instagram/insta-13.webp', url: IG },
-  { src: '/images/instagram/insta-14.webp', url: IG },
-  { src: '/images/instagram/insta-15.webp', url: IG },
-  { src: '/images/instagram/insta-16.webp', url: IG },
-  { src: '/images/instagram/insta-17.webp', url: IG },
-  { src: '/images/instagram/insta-18.webp', url: IG },
-  { src: '/images/instagram/insta-19.webp', url: IG },
-  { src: '/images/instagram/insta-20.webp', url: IG },
-  { src: '/images/instagram/insta-21.webp', url: IG },
-  { src: '/images/instagram/insta-22.webp', url: IG },
-  { src: '/images/instagram/insta-23.webp', url: IG },
-  { src: '/images/instagram/insta-24.webp', url: IG },
+  { src: "/images/instagram/ig-Dd8lXWOslNa.jpg", url: "https://www.instagram.com/p/Dd8lXWOslNa/", caption: "" },
+  { src: "/images/instagram/ig-Dc07-PWFxAl.jpg", url: "https://www.instagram.com/p/Dc07-PWFxAl/", caption: "" },
+  { src: "/images/instagram/ig-DctbUQ6F9pR.jpg", url: "https://www.instagram.com/p/DctbUQ6F9pR/", caption: "Freshness in every bite." },
+  { src: "/images/instagram/ig-DbQdMNvhsrR.jpg", url: "https://www.instagram.com/p/DbQdMNvhsrR/", caption: "Slow mornings, fresh flavors" },
+  { src: "/images/instagram/ig-DbIwue5CELt.jpg", url: "https://www.instagram.com/p/DbIwue5CELt/", caption: "Freshly baked. Freshly brewed. Simply perfect" },
+  { src: "/images/instagram/ig-DX9I1s6CmjD.jpg", url: "https://www.instagram.com/p/DX9I1s6CmjD/", caption: "This isnt just a salad its a whole mood" },
+  { src: "/images/instagram/ig-DYCraIBAq2o.jpg", url: "https://www.instagram.com/p/DYCraIBAq2o/", caption: "Golden crunch, honey touch" },
+  { src: "/images/instagram/ig-DWtvmlGAi69.jpg", url: "https://www.instagram.com/p/DWtvmlGAi69/", caption: "Sweet tooth satisfied" },
+  { src: "/images/instagram/ig-DWy3DrBAkw7.jpg", url: "https://www.instagram.com/p/DWy3DrBAkw7/", caption: "Bermuda bite" },
+  { src: "/images/instagram/ig-DUnmRwRDOxx.jpg", url: "https://www.instagram.com/p/DUnmRwRDOxx/", caption: "All about the layers" },
+  { src: "/images/instagram/ig-DU0dfy0DJCC.webp", url: "https://www.instagram.com/p/DU0dfy0DJCC/", caption: "" },
+  { src: "/images/instagram/ig-DRhLpsZjJXM.jpg", url: "https://www.instagram.com/p/DRhLpsZjJXM/", caption: "Warm up your day with our rich hot chocolate" },
 ]

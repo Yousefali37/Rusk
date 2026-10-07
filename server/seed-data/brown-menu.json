@@ -58,124 +58,64 @@
     "insta_subtitle": "Fresh bakes, perfect pours and the moments between — tagged from Brown.",
     "insta_posts": [
       {
-        "src": "/images/instagram/insta-1.webp",
-        "url": "https://www.instagram.com/browncafe.qa/",
-        "caption": "Brown's Melted Cookies"
-      },
-      {
-        "src": "/images/instagram/insta-2.webp",
-        "url": "https://www.instagram.com/browncafe.qa/",
-        "caption": "Pink October, one beautiful cup at a time."
-      },
-      {
-        "src": "/images/instagram/insta-3.webp",
-        "url": "https://www.instagram.com/browncafe.qa/",
+        "src": "/images/instagram/ig-Dd8lXWOslNa.jpg",
+        "url": "https://www.instagram.com/p/Dd8lXWOslNa/",
         "caption": ""
       },
       {
-        "src": "/images/instagram/insta-4.webp",
-        "url": "https://www.instagram.com/browncafe.qa/",
-        "caption": "A little tiramisu moment"
-      },
-      {
-        "src": "/images/instagram/insta-5.webp",
-        "url": "https://www.instagram.com/browncafe.qa/",
+        "src": "/images/instagram/ig-Dc07-PWFxAl.jpg",
+        "url": "https://www.instagram.com/p/Dc07-PWFxAl/",
         "caption": ""
       },
       {
-        "src": "/images/instagram/insta-6.webp",
-        "url": "https://www.instagram.com/browncafe.qa/",
-        "caption": "Happy International Coffee Day!"
+        "src": "/images/instagram/ig-DctbUQ6F9pR.jpg",
+        "url": "https://www.instagram.com/p/DctbUQ6F9pR/",
+        "caption": "Freshness in every bite."
       },
       {
-        "src": "/images/instagram/insta-7.webp",
-        "url": "https://www.tikvib.com/media/7691312974878903570",
-        "caption": "Coffee is Life"
+        "src": "/images/instagram/ig-DbQdMNvhsrR.jpg",
+        "url": "https://www.instagram.com/p/DbQdMNvhsrR/",
+        "caption": "Slow mornings, fresh flavors"
       },
       {
-        "src": "/images/instagram/insta-8.webp",
-        "url": "https://www.tikvib.com/media/7690242744496983303",
-        "caption": "Crunchy, chocolatey, irresistible."
+        "src": "/images/instagram/ig-DbIwue5CELt.jpg",
+        "url": "https://www.instagram.com/p/DbIwue5CELt/",
+        "caption": "Freshly baked. Freshly brewed. Simply perfect"
       },
       {
-        "src": "/images/instagram/insta-9.webp",
-        "url": "https://www.tikvib.com/media/7688647152842755335",
+        "src": "/images/instagram/ig-DX9I1s6CmjD.jpg",
+        "url": "https://www.instagram.com/p/DX9I1s6CmjD/",
+        "caption": "This isnt just a salad its a whole mood"
+      },
+      {
+        "src": "/images/instagram/ig-DYCraIBAq2o.jpg",
+        "url": "https://www.instagram.com/p/DYCraIBAq2o/",
+        "caption": "Golden crunch, honey touch"
+      },
+      {
+        "src": "/images/instagram/ig-DWtvmlGAi69.jpg",
+        "url": "https://www.instagram.com/p/DWtvmlGAi69/",
+        "caption": "Sweet tooth satisfied"
+      },
+      {
+        "src": "/images/instagram/ig-DWy3DrBAkw7.jpg",
+        "url": "https://www.instagram.com/p/DWy3DrBAkw7/",
+        "caption": "Bermuda bite"
+      },
+      {
+        "src": "/images/instagram/ig-DUnmRwRDOxx.jpg",
+        "url": "https://www.instagram.com/p/DUnmRwRDOxx/",
+        "caption": "All about the layers"
+      },
+      {
+        "src": "/images/instagram/ig-DU0dfy0DJCC.webp",
+        "url": "https://www.instagram.com/p/DU0dfy0DJCC/",
         "caption": ""
       },
       {
-        "src": "/images/instagram/insta-10.webp",
-        "url": "https://www.tikvib.com/media/7686491662603914503",
-        "caption": "Where every bite comes with a beautiful moment."
-      },
-      {
-        "src": "/images/instagram/insta-11.webp",
-        "url": "https://www.tikvib.com/media/7684214970527010066",
-        "caption": ""
-      },
-      {
-        "src": "/images/instagram/insta-12.webp",
-        "url": "https://www.tikvib.com/media/7682782904820256007",
-        "caption": "Coffee, but make it a moment"
-      },
-      {
-        "src": "/images/instagram/insta-13.webp",
-        "url": "https://www.tikvib.com/media/7682345397909572872",
-        "caption": "Happiness tastes like this."
-      },
-      {
-        "src": "/images/instagram/insta-14.webp",
-        "url": "https://www.tikvib.com/media/7678379581547547912",
-        "caption": "Fresh ingredients. Bold flavors. Every bite made to satisfy."
-      },
-      {
-        "src": "/images/instagram/insta-15.webp",
-        "url": "https://www.tikvib.com/media/7674223910748998930",
-        "caption": "Our New dirty matcha"
-      },
-      {
-        "src": "/images/instagram/insta-16.webp",
-        "url": "https://www.tikvib.com/media/7671970154523249928",
-        "caption": "A cloud of sweetness with a pecan touch"
-      },
-      {
-        "src": "/images/instagram/insta-17.webp",
-        "url": "https://www.tikvib.com/media/7670977862056348946",
-        "caption": "From Italy to Brown… with cloud pecan magic"
-      },
-      {
-        "src": "/images/instagram/insta-18.webp",
-        "url": "https://www.tikvib.com/media/7667198325162069266",
-        "caption": "A little sweetness to survive the sunny days"
-      },
-      {
-        "src": "/images/instagram/insta-19.webp",
-        "url": "https://www.tikvib.com/media/7656882846065249544",
-        "caption": "A little sweetness goes a long way"
-      },
-      {
-        "src": "/images/instagram/insta-20.webp",
-        "url": "https://www.tikvib.com/media/7653535102269443335",
-        "caption": "Good mornings start with great breakfasts"
-      },
-      {
-        "src": "/images/instagram/insta-21.webp",
-        "url": "https://www.tikvib.com/media/7652042820705946887",
-        "caption": "Irresistible taste"
-      },
-      {
-        "src": "/images/instagram/insta-22.webp",
-        "url": "https://www.tikvib.com/media/7650154245190110472",
-        "caption": "Cocoberry, a perfect sweet escape"
-      },
-      {
-        "src": "/images/instagram/insta-23.webp",
-        "url": "https://www.tikvib.com/media/7649831996407008520",
-        "caption": "Breakfast made to feel like art"
-      },
-      {
-        "src": "/images/instagram/insta-24.webp",
-        "url": "https://www.tikvib.com/media/7647239360567381255",
-        "caption": "We're making art, not only coffee"
+        "src": "/images/instagram/ig-DRhLpsZjJXM.jpg",
+        "url": "https://www.instagram.com/p/DRhLpsZjJXM/",
+        "caption": "Warm up your day with our rich hot chocolate"
       }
     ],
     "contact_address": "West Walk, Qatar",
