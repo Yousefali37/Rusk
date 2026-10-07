@@ -59,10 +59,48 @@ function countTop(top) {
   )
 }
 
+function PageNav({ page, total, label, onPrev, onNext }) {
+  return (
+    <div className="menu-pagination">
+      <button
+        type="button"
+        className="page-btn"
+        disabled={page <= 0}
+        onClick={onPrev}
+        aria-label="Previous page"
+      >
+        <span className="page-arrow" aria-hidden="true">
+          ←
+        </span>
+        <span>Prev</span>
+      </button>
+      <div className="page-indicator">
+        <strong>{label}</strong>
+        <span className="page-count">
+          {page + 1} <small>of</small> {total}
+        </span>
+      </div>
+      <button
+        type="button"
+        className="page-btn"
+        disabled={page >= total - 1}
+        onClick={onNext}
+        aria-label="Next page"
+      >
+        <span>Next</span>
+        <span className="page-arrow" aria-hidden="true">
+          →
+        </span>
+      </button>
+    </div>
+  )
+}
+
 export default function MenuSection({ site, selection, focusId, onSelect, search, onSearchChange }) {
   const menu = useMemo(() => site.menu || [], [site])
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(null) // { product, category }
+  const [searchPage, setSearchPage] = useState(0) // current search-results page
 
   const tops = useMemo(() => menu.filter((c) => !c.parent_id), [menu])
 
@@ -93,16 +131,32 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
     ? selectedTop?.subcategories?.find((s) => s.id === selection.subId) || null
     : null
 
+  // category page is driven by the selected category (falling back to the first one)
+  const page = selection.topId ? Math.max(0, tops.findIndex((t) => t.id === selection.topId)) : 0
+  const currentTop = tops[page] || null
+
   const q = search.trim().toLowerCase()
   const filterPrice = (p) =>
     !q || p.name.toLowerCase().includes(q) || (p.description || '').toLowerCase().includes(q)
 
   const filteredAll = q ? allProducts.filter(filterPrice) : []
 
-  const anyVisible = (groups) =>
-    groups.some((g) => (g.products || []).some((p) => !q || filterPrice(p)))
-
   const countText = q ? `${filteredAll.length} result${filteredAll.length === 1 ? '' : 's'}` : null
+
+  const PER_PAGE = 18
+  const totalSearchPages = Math.max(1, Math.ceil(filteredAll.length / PER_PAGE))
+  const sp = Math.min(searchPage, totalSearchPages - 1)
+
+  const handleSearch = (value) => {
+    setSearchPage(0)
+    onSearchChange(value)
+  }
+
+  const goTo = (i) => {
+    if (tops.length === 0) return
+    const idx = Math.min(Math.max(0, i), tops.length - 1)
+    onSelect({ topId: tops[idx].id, subId: null })
+  }
 
   useEffect(() => {
     if (!open) return
@@ -125,8 +179,8 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
               Taste the <em>Menu</em>
             </h2>
             <p>
-              Pick a category to narrow it down. Tap the active one again to clear it. Every plate
-              is made fresh at Brown Cafe in West Walk, Qatar.
+              Browse the menu category by category with the arrows below, or use the filter to jump
+              straight to a favourite. Every plate is made fresh at Brown Cafe in West Walk, Qatar.
             </p>
           </Reveal>
         </div>
@@ -186,7 +240,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                   type="search"
                   placeholder="Search matcha, tiramisu, coffee…"
                   value={search}
-                  onChange={(e) => onSearchChange(e.target.value)}
+                  onChange={(e) => handleSearch(e.target.value)}
                 />
               </label>
             </div>
@@ -278,9 +332,18 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
           {q ? (
             <div className="menu-groups">
               <p className="results-note">{countText}</p>
-              <motion.div key={`search-${q}`} {...productGridMotion}>
+              {totalSearchPages > 1 && (
+                <PageNav
+                  page={sp}
+                  total={totalSearchPages}
+                  label="Results"
+                  onPrev={() => setSearchPage(sp - 1)}
+                  onNext={() => setSearchPage(sp + 1)}
+                />
+              )}
+              <motion.div key={`search-${q}-${sp}`} {...productGridMotion}>
                 <div className="product-grid">
-                  {filteredAll.map((p) => (
+                  {filteredAll.slice(sp * PER_PAGE, sp * PER_PAGE + PER_PAGE).map((p) => (
                     <ProductCard key={p.id} product={p} focusId={null} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
                   ))}
                 </div>
@@ -288,79 +351,75 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
               {filteredAll.length === 0 && (
                 <div className="menu-empty">
                   <p>Nothing matched “{search}”.</p>
-                  <button type="button" className="btn btn-outline" onClick={() => onSearchChange('')}>
+                  <button type="button" className="btn btn-outline" onClick={() => handleSearch('')}>
                     Clear search
                   </button>
                 </div>
               )}
             </div>
+          ) : selectedSub ? (
+            <div className="menu-groups">
+              <div className="menu-group" key={`${selectedTop.id}-${selectedSub.id}`}>
+                <h3 className="menu-group-title">
+                  <span>{selectedTop.name}</span>
+                  <span className="menu-group-count">{countItems(selectedSub)}</span>
+                </h3>
+                <motion.div key={`sub-${selectedSub.id}`} {...productGridMotion}>
+                  <div className="product-grid">
+                    {selectedSub.products.map((p) => (
+                      <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
+                    ))}
+                  </div>
+                </motion.div>
+              </div>
+            </div>
           ) : (
             <div className="menu-groups">
-              {selectedSub ? (
-                /* single sub-category selected */
-                <div className="menu-group" key={`${selectedTop.id}-${selectedSub.id}`}>
-                  <h3 className="menu-group-title">
-                    <span>{selectedTop.name}</span>
-                    <span className="menu-group-count">{countItems(selectedSub)}</span>
-                  </h3>
-                  <motion.div key={`sub-${selectedSub.id}`} {...productGridMotion}>
-                    <div className="product-grid">
-                      {selectedSub.products.map((p) => (
-                        <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
-                      ))}
-                    </div>
-                  </motion.div>
-                </div>
-              ) : (
-                (selectedTop
-                  ? [{ top: selectedTop, subs: selectedTop.subcategories || [] }]
-                  : tops.map((t) => ({ top: t, subs: t.subcategories || [] }))
-                ).map((branch) => {
-                  const top = branch.top
-                  const subs = branch.subs.filter((g) => anyVisible([g]))
-                  if (subs.length === 0 && !top.products?.some(filterPrice)) return null
-                  return (
-                    <div className="menu-group" key={top.id}>
-                      <h3 className="menu-group-title top">
-                        <span>{top.name}</span>
-                        <span className="menu-group-count">{countTop(top)}</span>
-                      </h3>
-                      {(top.products || []).length > 0 && (
-                        <motion.div key={`top-${top.id}`} {...productGridMotion}>
+              {currentTop ? (
+                <>
+                  <PageNav
+                    page={page}
+                    total={tops.length}
+                    label={currentTop.name}
+                    onPrev={() => goTo(page - 1)}
+                    onNext={() => goTo(page + 1)}
+                  />
+                  <div className="menu-group" key={currentTop.id}>
+                    <h3 className="menu-group-title top">
+                      <span>{currentTop.name}</span>
+                      <span className="menu-group-count">{countTop(currentTop)}</span>
+                    </h3>
+                    {(currentTop.products || []).length > 0 && (
+                      <motion.div key={`top-${currentTop.id}-${page}`} {...productGridMotion}>
+                        <div className="product-grid">
+                          {currentTop.products.map((p) => (
+                            <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
+                          ))}
+                        </div>
+                      </motion.div>
+                    )}
+                    {(currentTop.subcategories || []).map((g) => (
+                      <div className="menu-subgroup" key={g.id}>
+                        <h4 className="menu-subgroup-title">
+                          <span>{g.name}</span>
+                          <span className="menu-group-count">{countItems(g)}</span>
+                        </h4>
+                        <motion.div key={`s-${currentTop.id}-${g.id}`} {...productGridMotion}>
                           <div className="product-grid">
-                            {top.products.map((p) => (
+                            {g.products.map((p) => (
                               <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
                             ))}
                           </div>
                         </motion.div>
-                      )}
-                      {subs.map((g) => (
-                        <div className="menu-subgroup" key={g.id}>
-                          <h4 className="menu-subgroup-title">
-                            <span>{g.name}</span>
-                            <span className="menu-group-count">{countItems(g)}</span>
-                          </h4>
-                          <motion.div key={`s-${top.id}-${g.id}`} {...productGridMotion}>
-                            <div className="product-grid">
-                              {g.products.map((p) => (
-                                <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
-                              ))}
-                            </div>
-                          </motion.div>
-                        </div>
-                      ))}
-                    </div>
-                  )
-                })
-              )}
-              {!selectedTop &&
-                !selectedSub &&
-                !anyVisible(tops.flatMap((t) => t.subcategories || [])) &&
-                !q && (
-                  <div className="menu-empty">
-                    <p>Nothing on the pass yet — the kitchen is still waking up.</p>
+                      </div>
+                    ))}
                   </div>
-                )}
+                </>
+              ) : (
+                <div className="menu-empty">
+                  <p>Nothing on the pass yet — the kitchen is still waking up.</p>
+                </div>
+              )}
             </div>
           )}
         </div>
