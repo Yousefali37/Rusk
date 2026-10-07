@@ -56,4 +56,4 @@
   border-color: rgba(30, 26, 21, 0.18);
 }
 .insta-card.insta-full {  grid-column: span 3;}
-/* ---------- menu pager (matches insta pagination style) ---------- */.menu-pager {  margin-top: 0;  margin-bottom: 26px;  justify-content: center;  gap: 10px;}.menu-pager .insta-page-dot {  min-width: 36px;  height: 36px;}
+/* ---------- menu pager (matches insta pagination style) ---------- */.menu-pager {  margin-top: 30px;  margin-bottom: 0;  justify-content: center;  gap: 10px;}.menu-pager .insta-page-dot {  min-width: 36px;  height: 36px;}

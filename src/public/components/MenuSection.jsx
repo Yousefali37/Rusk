@@ -335,6 +335,13 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
           {q ? (
             <div className="menu-groups">
               <p className="results-note">{countText}</p>
+              <motion.div key={`search-${q}-${sp}`} {...productGridMotion}>
+                <div className="product-grid">
+                  {filteredAll.slice(sp * PER_PAGE, sp * PER_PAGE + PER_PAGE).map((p) => (
+                    <ProductCard key={p.id} product={p} focusId={null} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
+                  ))}
+                </div>
+              </motion.div>
               {totalSearchPages > 1 && (
                 <PageNav
                   page={sp}
@@ -343,13 +350,6 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                   label="Search results pagination"
                 />
               )}
-              <motion.div key={`search-${q}-${sp}`} {...productGridMotion}>
-                <div className="product-grid">
-                  {filteredAll.slice(sp * PER_PAGE, sp * PER_PAGE + PER_PAGE).map((p) => (
-                    <ProductCard key={p.id} product={p} focusId={null} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
-                  ))}
-                </div>
-              </motion.div>
               {filteredAll.length === 0 && (
                 <div className="menu-empty">
                   <p>Nothing matched “{search}”.</p>
@@ -383,14 +383,6 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                     <span>{currentTop.name}</span>
                     <span className="menu-group-count">{countTop(currentTop)}</span>
                   </h3>
-                  {pageItems.length > 0 && catPages > 1 && (
-                    <PageNav
-                      page={itemPage}
-                      total={catPages}
-                      go={setItemPage}
-                      label="Menu pagination"
-                    />
-                  )}
                   {pageItems.length > 0 && (
                     <motion.div key={`top-${currentTop.id}-${itemPage}`} {...productGridMotion}>
                       <div className="product-grid">
@@ -401,6 +393,14 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                           ))}
                       </div>
                     </motion.div>
+                  )}
+                  {pageItems.length > 0 && catPages > 1 && (
+                    <PageNav
+                      page={itemPage}
+                      total={catPages}
+                      go={setItemPage}
+                      label="Menu pagination"
+                    />
                   )}
                   {(currentTop.subcategories || []).map((g) => (
                     <div className="menu-subgroup" key={g.id}>
