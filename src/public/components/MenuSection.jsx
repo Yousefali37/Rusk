@@ -59,40 +59,41 @@ function countTop(top) {
   )
 }
 
-function PageNav({ page, total, label, onPrev, onNext }) {
+function PageNav({ page, total, go, label }) {
+  if (total <= 1) return null
   return (
-    <div className="menu-pagination">
+    <nav className="insta-pager menu-pager" aria-label={label}>
       <button
         type="button"
-        className="page-btn"
+        className="insta-page-btn"
+        onClick={() => go(page - 1)}
         disabled={page <= 0}
-        onClick={onPrev}
         aria-label="Previous page"
       >
-        <span className="page-arrow" aria-hidden="true">
-          ←
-        </span>
-        <span>Prev</span>
+        ‹
       </button>
-      <div className="page-indicator">
-        <strong>{label}</strong>
-        <span className="page-count">
-          {page + 1} <small>of</small> {total}
-        </span>
-      </div>
+      {Array.from({ length: total }, (_, i) => (
+        <button
+          key={i}
+          type="button"
+          className={`insta-page-dot ${i === page ? 'on' : ''}`}
+          onClick={() => go(i)}
+          aria-label={`Page ${i + 1}`}
+          aria-current={i === page ? 'page' : undefined}
+        >
+          {i + 1}
+        </button>
+      ))}
       <button
         type="button"
-        className="page-btn"
+        className="insta-page-btn"
+        onClick={() => go(page + 1)}
         disabled={page >= total - 1}
-        onClick={onNext}
         aria-label="Next page"
       >
-        <span>Next</span>
-        <span className="page-arrow" aria-hidden="true">
-          →
-        </span>
+        ›
       </button>
-    </div>
+    </nav>
   )
 }
 
@@ -338,9 +339,8 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                 <PageNav
                   page={sp}
                   total={totalSearchPages}
-                  label="Results"
-                  onPrev={() => setSearchPage(sp - 1)}
-                  onNext={() => setSearchPage(sp + 1)}
+                  go={(i) => setSearchPage(i)}
+                  label="Search results pagination"
                 />
               )}
               <motion.div key={`search-${q}-${sp}`} {...productGridMotion}>
@@ -387,9 +387,8 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                     <PageNav
                       page={itemPage}
                       total={catPages}
-                      label={currentTop.name}
-                      onPrev={() => setItemPage(itemPage - 1)}
-                      onNext={() => setItemPage(itemPage + 1)}
+                      go={setItemPage}
+                      label="Menu pagination"
                     />
                   )}
                   {pageItems.length > 0 && (
