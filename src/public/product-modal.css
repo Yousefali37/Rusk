@@ -1,0 +1,130 @@
+.product-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2100;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(30, 26, 21, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.product-modal-card {
+  position: relative;
+  width: min(560px, 100%);
+  max-height: 88vh;
+  overflow-y: auto;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 28px;
+  box-shadow: 0 30px 80px rgba(30, 26, 21, 0.35);
+}
+
+.product-modal-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 999px;
+  border: 1.5px solid rgba(30, 26, 21, 0.15);
+  background: rgba(247, 241, 230, 0.92);
+  color: var(--ink);
+  font-size: 24px;
+  line-height: 1;
+  cursor: pointer;
+  transition: border-color 0.25s ease, color 0.25s ease, background 0.25s ease;
+}
+
+.product-modal-close:hover {
+  border-color: var(--clay);
+  color: var(--clay);
+  background: rgba(143, 79, 40, 0.07);
+}
+
+.product-modal-media {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  background: var(--paper);
+  border-bottom: 1px solid var(--line);
+  overflow: hidden;
+}
+
+.product-modal-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.product-modal-fallback {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background: radial-gradient(circle at 30% 25%, rgba(201, 146, 47, 0.3), transparent 55%),
+    var(--paper-2);
+}
+
+.product-modal-body {
+  padding: 22px 26px 28px;
+}
+
+.product-modal-cat {
+  display: inline-block;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--clay);
+}
+
+.product-modal-title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+.product-modal-desc {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.product-modal-desc.muted {
+  font-style: italic;
+}
+
+.product-modal-price {
+  margin-top: 18px;
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 22px;
+  color: var(--clay);
+}
+
+.product-card {
+  cursor: pointer;
+}
+
+.product-card:focus-visible {
+  outline: 2px solid var(--clay);
+  outline-offset: 3px;
+}
+
+@media (max-width: 560px) {
+  .product-modal {
+    padding: 14px;
+    align-items: flex-end;
+  }
+  .product-modal-card {
+    width: 100%;
+    border-radius: 26px 26px 0 0;
+    max-height: 92vh;
+  }
+}

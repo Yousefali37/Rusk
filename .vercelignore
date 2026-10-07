@@ -1,0 +1,20 @@
+# Local data / uploads — ephemeral on Vercel, regenerated from seed data
+server/data
+server/uploads
+server/*.log
+server/.server.pid
+
+# Seed data (server/seed-data/**) ships with the function via includeFiles
+
+# Build output
+dist
+
+# Node
+node_modules
+*.log
+
+# Vercel / misc
+.vercel
+.env
+.env.*
+!.env.example
