@@ -4,14 +4,23 @@ import { Reveal } from '../Reveal.jsx'
 import { EASE, fadeUp, stagger } from '../motion.js'
 import ProductModal from './ProductModal.jsx'
 
+function clip(str, n) {
+  const s = (str || '').trim()
+  if (s.length <= n) return s
+  const cut = s.slice(0, n).replace(/\s+\S*$/, '')
+  return (cut.length ? cut : s.slice(0, n - 1)) + '…'
+}
+
 function ProductCard({ product, focusId, onOpen }) {
   const isFocus = focusId && product.id === focusId
+  const full = product.description ? `${product.name} — ${product.description}` : product.name
   return (
     <motion.article
       variants={fadeUp}
       className={`product-card ${isFocus ? 'focus' : ''}`}
       role="button"
       tabIndex={0}
+      title={full}
       onClick={() => onOpen(product)}
       onKeyDown={(e) => {
         if (e.key === 'Enter' || e.key === ' ') {
@@ -36,13 +45,15 @@ function ProductCard({ product, focusId, onOpen }) {
       </div>
       <div className="product-info">
         <div className="product-title-row">
-          <h4 className="product-name">{product.name}</h4>
+          <h4 className="product-name">{clip(product.name, 24)}</h4>
           <span className="product-price-fill" aria-hidden="true" />
           <span className="product-price">
             {product.price > 0 ? `QAR ${Number(product.price).toFixed(2)}` : '—'}
           </span>
         </div>
-        {product.description ? <p className="product-desc">{product.description}</p> : null}
+        {product.description ? (
+          <p className="product-desc">{clip(product.description, 90)}</p>
+        ) : null}
       </div>
     </motion.article>
   )
