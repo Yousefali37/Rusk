@@ -96,6 +96,7 @@ export function populate(d) {
   setSetting('social_linktree', s.social_linktree || '')
   setSetting('social_talabat', s.social_talabat || '')
   setSetting('snoonu', s.snoonu || '')
+  setSetting('rafeeq', s.rafeeq || '')
   setSetting('footer_text', s.footer_text || 'Speciality coffee & bakery, made fresh every day in West Walk, Qatar.')
   setSetting('footer_background', s.footer_background || '')
 

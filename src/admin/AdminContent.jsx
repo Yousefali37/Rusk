@@ -292,11 +292,14 @@ export default function AdminContent({ token, onUnauthorized }) {
         <Field label="Linktree URL">
           <input value={site.social_linktree || ''} onChange={(e) => set('social_linktree', e.target.value)} />
         </Field>
-        <Field label="Order URL">
+        <Field label="Talabat URL">
           <input value={site.social_talabat || ''} onChange={(e) => set('social_talabat', e.target.value)} />
         </Field>
         <Field label="Snoonu URL">
           <input value={site.snoonu || ''} onChange={(e) => set('snoonu', e.target.value)} />
+        </Field>
+        <Field label="Rafeeq URL">
+          <input value={site.rafeeq || ''} onChange={(e) => set('rafeeq', e.target.value)} />
         </Field>
       </div>
 

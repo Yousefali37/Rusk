@@ -7,8 +7,9 @@ const SOCIALS = [
   { key: 'instagram', label: 'Instagram', get: (s) => s.social_instagram },
   { key: 'tiktok', label: 'TikTok', get: (s) => s.social_tiktok },
   { key: 'linktree', label: 'Linktree', get: (s) => s.social_linktree },
-  { key: 'talabat', label: 'Order', get: (s) => s.social_talabat },
+  { key: 'talabat', label: 'Talabat', get: (s) => s.social_talabat },
   { key: 'snoonu', label: 'Snoonu', get: (s) => s.snoonu },
+  { key: 'rafeeq', label: 'Rafeeq', get: (s) => s.rafeeq },
 ]
 
 const SOCIAL_ICONS = {
@@ -43,6 +44,13 @@ const SOCIAL_ICONS = {
     <>
       <path d="M13.6 2.6 2.4 7.1l4.4 1.7 1.7 4.4z" />
       <path d="M13.6 2.6 6.8 8.8" />
+    </>
+  ),
+  rafeeq: (
+    <>
+      <path d="M5.5 3.6v8.8" />
+      <path d="M5.5 3.6h2.6a2.8 2.8 0 0 1 0 5.6H5.5" />
+      <path d="M8.4 9.2l3.1 3.1" />
     </>
   ),
 }

@@ -28,6 +28,7 @@ const FULL_SETTING_KEYS = [
   'social_linktree',
   'social_talabat',
   'snoonu',
+  'rafeeq',
   'footer_text',
   'footer_background',
 ]
