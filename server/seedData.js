@@ -7,6 +7,58 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const DEFAULT_SRC = path.join(__dirname, 'seed-data', 'rusk-menu.json')
 
+const DEFAULT_CONTACT_MAP = () =>
+  'https://www.google.com/maps?q=' + encodeURIComponent('Doha 7GPF QV Doha, Qatar') + '&output=embed'
+
+const SETTING_DEFAULTS = {
+  site_name: 'Rusk',
+  logo: '',
+  hero_image: '',
+  hero_title: 'Rusk',
+  hero_eyebrow: 'Speciality Coffee & Bakery — Doha, Qatar',
+  hero_tagline: 'a taste of Rusk',
+  hero_subtitle:
+    'Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in Doha 7GPF QV Doha, Qatar.',
+  marquee_items: [
+    'Speciality Coffee',
+    'Artisan Bakery',
+    'Fresh Croissants',
+    'Signature Matcha',
+    'London Cake',
+    'Flatbreads',
+    'Breakfast All Day',
+  ],
+  menu_eyebrow: 'Made to Order',
+  menu_subtitle:
+    'Pick a category to browse it, then flip through the pagination for more dishes. Every plate is made fresh at Rusk in Doha 7GPF QV Doha.',
+  today_badge: "Today's Special",
+  insta_eyebrow: 'From the Café',
+  insta_heading: 'Follow Us on *Instagram*',
+  insta_subtitle: 'Fresh bakes, perfect pours and the moments between — tagged from Rusk.',
+  insta_posts: [],
+  contact_address: '',
+  contact_phone: '',
+  contact_email: '',
+  contact_hours: '',
+  contact_map: DEFAULT_CONTACT_MAP,
+  social_instagram: '',
+  social_tiktok: '',
+  social_linktree: '',
+  social_talabat: '',
+  snoonu: '',
+  rafeeq: '',
+  footer_text:
+    'Speciality coffee & bakery, made fresh every day in Doha 7GPF QV Doha, Qatar.',
+  footer_background: '',
+}
+
+export function backfillDefaults() {
+  for (const [key, value] of Object.entries(SETTING_DEFAULTS)) {
+    const exists = db.prepare('SELECT 1 FROM settings WHERE key = ?').get(key)
+    if (!exists) setSetting(key, typeof value === 'function' ? value() : value)
+  }
+}
+
 export function loadMenuData(src) {
   const file = src || process.env.SEED_SOURCE || DEFAULT_SRC
   if (!fs.existsSync(file)) {

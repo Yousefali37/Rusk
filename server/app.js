@@ -3,7 +3,7 @@ import multer from 'multer'
 import path from 'node:path'
 import fs from 'node:fs'
 import { fileURLToPath } from 'node:url'
-import { ensureSeeded } from './seedData.js'
+import { ensureSeeded, backfillDefaults } from './seedData.js'
 import { publicRouter, adminRouter } from './routes.js'
 import { db, DB_PATH } from './db.js'
 import { isVercel, flushNow, canUploadToBlob, uploadImage } from './persist.js'
@@ -13,6 +13,9 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const app = express()
 app.disable('x-powered-by')
 app.use(express.json({ limit: '2mb' }))
+
+// ensure any settings keys added since last seed exist
+backfillDefaults()
 
 // ---------- persistence: DB snapshot is flushed into Blob BEFORE the
 // response is sent, so a successful write can never be lost to an idle
