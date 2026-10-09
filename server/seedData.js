@@ -53,6 +53,7 @@ const SETTING_DEFAULTS = {
 }
 
 export function backfillDefaults() {
+  initSchema()
   for (const [key, value] of Object.entries(SETTING_DEFAULTS)) {
     const exists = db.prepare('SELECT 1 FROM settings WHERE key = ?').get(key)
     if (!exists) setSetting(key, typeof value === 'function' ? value() : value)
