@@ -5,6 +5,8 @@ import { EASE, fadeUp, stagger } from '../motion.js'
 import ProductModal from './ProductModal.jsx'
 import { DEFAULT_MENU_EYEBROW, DEFAULT_MENU_SUBTITLE } from '../../contentDefaults.js'
 
+export const MENU_PAGE_SIZE = 8
+
 function clip(str, n) {
   const s = (str || '').trim()
   if (s.length <= n) return s
@@ -154,12 +156,11 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
 
   const countText = q ? `${filteredAll.length} result${filteredAll.length === 1 ? '' : 's'}` : null
 
-  const PER_PAGE = 8
-  const totalSearchPages = Math.max(1, Math.ceil(filteredAll.length / PER_PAGE))
+  const totalSearchPages = Math.max(1, Math.ceil(filteredAll.length / MENU_PAGE_SIZE))
   const sp = Math.min(searchPage, totalSearchPages - 1)
 
   const pageItems = currentTop ? currentTop.products || [] : []
-  const catPages = Math.max(1, Math.ceil(pageItems.length / PER_PAGE))
+  const catPages = Math.max(1, Math.ceil(pageItems.length / MENU_PAGE_SIZE))
   const itemPage = Math.min(selection.itemPage || 0, catPages - 1)
 
   const handleSearch = (value) => {
@@ -172,6 +173,14 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
     const idx = Math.min(Math.max(0, i), catPages - 1)
     onSelect({ topId: currentTop.id, subId: null, itemPage: idx })
   }
+
+  useEffect(() => {
+    if (!focusId) return
+    const t = window.setTimeout(() => {
+      document.querySelector('.product-card.focus')?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+    }, 350)
+    return () => window.clearTimeout(t)
+  }, [focusId])
 
   useEffect(() => {
     if (!open) return
@@ -348,7 +357,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
               <p className="results-note">{countText}</p>
               <motion.div key={`search-${q}-${sp}`} {...productGridMotion}>
                 <div className="product-grid">
-                  {filteredAll.slice(sp * PER_PAGE, sp * PER_PAGE + PER_PAGE).map((p) => (
+                  {filteredAll.slice(sp * MENU_PAGE_SIZE, sp * MENU_PAGE_SIZE + MENU_PAGE_SIZE).map((p) => (
                     <ProductCard key={p.id} product={p} focusId={null} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
                   ))}
                 </div>
@@ -398,7 +407,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
                     <motion.div key={`top-${currentTop.id}-${itemPage}`} {...productGridMotion}>
                       <div className="product-grid">
                         {pageItems
-                          .slice(itemPage * PER_PAGE, itemPage * PER_PAGE + PER_PAGE)
+                          .slice(itemPage * MENU_PAGE_SIZE, itemPage * MENU_PAGE_SIZE + MENU_PAGE_SIZE)
                           .map((p) => (
                             <ProductCard key={p.id} product={p} focusId={focusId} onOpen={(p) => setActive({ product: p, category: catLabel.get(p.id) })} />
                           ))}

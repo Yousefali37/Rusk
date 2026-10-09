@@ -6,7 +6,7 @@ import CustomCursor from './CustomCursor.jsx'
 import Header from './components/Header.jsx'
 import Hero from './components/Hero.jsx'
 import TodaysMenu from './components/TodaysMenu.jsx'
-import MenuSection from './components/MenuSection.jsx'
+import MenuSection, { MENU_PAGE_SIZE } from './components/MenuSection.jsx'
 import InstagramFeed from './components/InstagramFeed.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
@@ -97,7 +97,12 @@ export default function PublicSite() {
       let found = false
       for (const top of site.menu || []) {
         if (top.id === p.category_id) {
-          setSelection({ topId: top.id, subId: null, itemPage: 0 })
+          const idx = (top.products || []).findIndex((x) => x.id === p.id)
+          setSelection({
+            topId: top.id,
+            subId: null,
+            itemPage: idx >= 0 ? Math.floor(idx / MENU_PAGE_SIZE) : 0,
+          })
           found = true
           break
         }
