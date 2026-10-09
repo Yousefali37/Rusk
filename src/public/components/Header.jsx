@@ -38,7 +38,7 @@ export default function Header({ site }) {
               <LogoMark />
             </span>
           )}
-          <span className="brand-name">{site_name}</span>
+          {!logo && <span className="brand-name">{site_name}</span>}
         </a>
 
         <nav className={`site-nav ${open ? 'open' : ''}`}>

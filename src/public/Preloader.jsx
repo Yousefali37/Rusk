@@ -54,7 +54,6 @@ export default function Preloader({ onDone }) {
           <div className="preloader-brand">
             <img className="brand-logo" src="/images/rusk/logo.png" alt="Rusk" />
             <div className="preloader-brand-text">
-              <span className="preloader-name">RUSK</span>
               <span className="preloader-tagline">Speciality coffee, every day.</span>
             </div>
           </div>
