@@ -231,7 +231,7 @@
         },
         {
           "id": 5,
-          "name": "Turkey &amp; Cheese Pan Au Suisse",
+          "name": "Turkey & Cheese Pan Au Suisse",
           "description": "Homemade butter croissant filled with special sauce, Avocado slices, Beef Bacon and scrambled egg.",
           "price": 38,
           "image": "/images/products/crop-af7e9a8a-f33b-4a0f-9a12-a9c18e2dabc3.webp",
@@ -241,7 +241,7 @@
         },
         {
           "id": 6,
-          "name": "Fig &amp; Goat Cheese Danish",
+          "name": "Fig & Goat Cheese Danish",
           "description": "Homemade Brioche buns filled with scrambled eggs, cheese special sauce and Jalapenos.",
           "price": 28,
           "image": "/images/products/crop-a8dbbe68-bd83-4d25-b4b7-b467ac013a4f.webp",
@@ -331,7 +331,7 @@
         },
         {
           "id": 15,
-          "name": "Turkey &amp; Mushroom Quiche",
+          "name": "Turkey & Mushroom Quiche",
           "description": "Watermellon cubes top with Almond flakes, Feta Cheese and Fresh mint",
           "price": 45,
           "image": "/images/products/crop-ad54a69d-1e8d-4abc-9ccd-26f65b2f79fd.webp",
@@ -392,7 +392,7 @@
         },
         {
           "id": 843111,
-          "name": "Orange &amp; Roasted Peach Ricotta Cake",
+          "name": "Orange & Roasted Peach Ricotta Cake",
           "description": "",
           "price": 26,
           "image": "",
@@ -402,7 +402,7 @@
         },
         {
           "id": 973317,
-          "name": "Banana Bread &amp; Peanut Butter",
+          "name": "Banana Bread & Peanut Butter",
           "description": "",
           "price": 29,
           "image": "",
@@ -482,7 +482,7 @@
         },
         {
           "id": 30292,
-          "name": "Carrot &amp; Walnut Cake Slice",
+          "name": "Carrot & Walnut Cake Slice",
           "description": "",
           "price": 34,
           "image": "",
@@ -563,7 +563,7 @@
         },
         {
           "id": 24,
-          "name": "Burrata &amp; Avocado with Honey Sourdough",
+          "name": "Burrata & Avocado with Honey Sourdough",
           "description": "Pecan cake with crunchy pecans and a smooth caramel touch. Perfect with coffee. Gluten-free.",
           "price": 42,
           "image": "/images/products/crop-c0120039-6dbb-4a3c-bfd0-defe0c110c0a.webp",
@@ -593,7 +593,7 @@
         },
         {
           "id": 27,
-          "name": "Baked Beans &amp; Fried Egg on Sourdough",
+          "name": "Baked Beans & Fried Egg on Sourdough",
           "description": "A delightful fusion of tropical coconut and sweet strawberries, blended with rich Vanilla Ice cream. A refreshing, indulgent treat with every spoonful.",
           "price": 42,
           "image": "/images/products/crop-e499419b-a0b9-470f-99da-46f6339a1311.webp",
@@ -613,7 +613,7 @@
         },
         {
           "id": 29,
-          "name": "Egg &amp; Bacon Brioche Bun",
+          "name": "Egg & Bacon Brioche Bun",
           "description": "Homemade crepe topped with Strawberry or Banana drizzled with your choice of chocolate (Milk chocolate, dark chocolate and White chocolate)\nWith your Choice of Add-ons\n- Strawberry\n- Banana\n- White Chocolate\n- Dark Chocolate\n- Milk Chocolate",
           "price": 40,
           "image": "/images/products/crop-bc114b57-8e24-44b6-a631-da22d6c6d4ec.webp",
@@ -674,7 +674,7 @@
         },
         {
           "id": 33,
-          "name": "Scrambled Eggs, Spicy Sriracha &amp;  Toasted Croissant",
+          "name": "Scrambled Eggs, Spicy Sriracha &  Toasted Croissant",
           "description": "",
           "price": 20,
           "image": "/images/products/crop-dca97683-9cb8-403f-b9bb-859938ff4245.webp",
@@ -744,7 +744,7 @@
         },
         {
           "id": 40,
-          "name": "Chicken Caesar Salad (Chicken, Egg &amp; Bacon)",
+          "name": "Chicken Caesar Salad (Chicken, Egg & Bacon)",
           "description": "",
           "price": 26,
           "image": "/images/products/crop-5d69b88d-c1f8-4ad2-9ec9-c365b0805d8a.webp",
@@ -754,7 +754,7 @@
         },
         {
           "id": 41,
-          "name": "Roasted  Butternut Squash, Grapes, Quinoa &amp;  Goat Cheese Salad",
+          "name": "Roasted  Butternut Squash, Grapes, Quinoa &  Goat Cheese Salad",
           "description": "",
           "price": 25,
           "image": "/images/products/crop-1433206e-612b-45b8-8811-064c1e56fecf.webp",
@@ -764,7 +764,7 @@
         },
         {
           "id": 42,
-          "name": "Crunchy Wedge Blue cheese &amp; Ranch Salad",
+          "name": "Crunchy Wedge Blue cheese & Ranch Salad",
           "description": "",
           "price": 28,
           "image": "/images/products/crop-1fd433cd-ef16-4a9b-aa35-b3fac8246aa4.webp",
@@ -805,7 +805,7 @@
       "products": [
         {
           "id": 44,
-          "name": "Roast Beef &amp; Horseradish Ciabatta",
+          "name": "Roast Beef & Horseradish Ciabatta",
           "description": "Creamy Spanish milk and smooth matcha topped with rich, silky dirty cream for a refreshing and indulgent finish",
           "price": 29,
           "image": "/images/products/crop-c316799a-93b5-49a0-aeb9-81ddc88b9393.webp",
@@ -825,7 +825,7 @@
         },
         {
           "id": 46,
-          "name": "Salmon &amp; Philadelphia Bagel",
+          "name": "Salmon & Philadelphia Bagel",
           "description": "Our creamy twist on a classic favorite\u2014premium matcha green tea blended with fresh milk and rich vanilla ice cream. Smooth, earthy, and indulgently refreshing, it\u2019s the perfect balance of bold flavor and sweet, creamy delight.",
           "price": 28,
           "image": "/images/products/crop-a3717389-841b-4543-8434-b5c9203536a5.webp",
@@ -835,7 +835,7 @@
         },
         {
           "id": 47,
-          "name": "Tomato Mozzarella &amp; Pesto Focaccia",
+          "name": "Tomato Mozzarella & Pesto Focaccia",
           "description": "",
           "price": 28,
           "image": "/images/products/crop-d457993c-0587-4261-8af9-64f8bead3119.webp",
@@ -855,7 +855,7 @@
         },
         {
           "id": 49,
-          "name": "Chicken &amp; Turkey Sourdough Club Sandwich",
+          "name": "Chicken & Turkey Sourdough Club Sandwich",
           "description": "A vibrant blend of hibiscus and green tea, infused with zesty lemon mint juice and a splash of passion fruit for a perfectly tangy, tropical refreshment.",
           "price": 25,
           "image": "/images/products/crop-7a5632cf-8c49-4b39-8a9c-b0ffc53cc173.webp",
@@ -865,7 +865,7 @@
         },
         {
           "id": 50,
-          "name": "Brie &amp; Turkey Baguette",
+          "name": "Brie & Turkey Baguette",
           "description": "A refreshing fusion of green tea, fresh mint, and zesty lemon, lightly sweetened with smooth vanilla syrup for a bright, balanced twist on a classic.",
           "price": 25,
           "image": "/images/products/crop-780a18f7-15be-486d-ae90-4695455aad25.webp",
@@ -875,7 +875,7 @@
         },
         {
           "id": 51,
-          "name": "Grilled Goat Cheese with Fig Jam &amp;  Beetroot Jam on Sourdough Bread",
+          "name": "Grilled Goat Cheese with Fig Jam &  Beetroot Jam on Sourdough Bread",
           "description": "A vibrant, ruby-red infusion of hibiscus tea blended with the tart-sweet essence of pomegranate. Naturally caffeine-free and refreshingly tangy, this iced tea offers a bold, fruity flavor and a crisp finish\u2014perfect for cooling off any time of day.",
           "price": 25,
           "image": "/images/products/crop-022fee30-c27d-40a9-8afe-77555ebac8b7.webp",
@@ -885,7 +885,7 @@
         },
         {
           "id": 52,
-          "name": "Peanut Butter &amp; Jam Sourdough",
+          "name": "Peanut Butter & Jam Sourdough",
           "description": "",
           "price": 18,
           "image": "/images/products/crop-9ceccfa2-c890-480c-9e5d-b0c1ccaa2206.webp",
@@ -986,7 +986,7 @@
         },
         {
           "id": 60,
-          "name": "Oven-Baked Burrata, Tomato &amp; Pesto  Sourdough Flat Bread",
+          "name": "Oven-Baked Burrata, Tomato & Pesto  Sourdough Flat Bread",
           "description": "Homemade freshly baked Butter Croissant filled and sprinkled with Zaatar.",
           "price": 18,
           "image": "/images/products/crop-96ef8bcf-e650-461d-8523-ac06e6d23cfd.webp",
@@ -996,7 +996,7 @@
         },
         {
           "id": 61,
-          "name": "Zaatar &amp; Feta Sourdough Focaccia",
+          "name": "Zaatar & Feta Sourdough Focaccia",
           "description": "Homemade freshly baked Chocolate Croissant.",
           "price": 18,
           "image": "/images/products/crop-6ee86850-eff3-4920-9720-9c3bc69cea95.webp",
@@ -1399,7 +1399,7 @@
         },
         {
           "id": 288513,
-          "name": "Healthy Blueberry &amp; Banana Smoothie",
+          "name": "Healthy Blueberry & Banana Smoothie",
           "description": "",
           "price": 31,
           "image": "",
@@ -1510,7 +1510,7 @@
       "products": [
         {
           "id": 76,
-          "name": "Date &amp; Tahini Cake",
+          "name": "Date & Tahini Cake",
           "description": "A rich chocolate sponge layered with smooth vanilla cream, coated in decadent chocolate ganache, topped with crispy flakes and pecan nuts, and finished with chocolate syrup for an indulgent and crunchy chocolate experience.",
           "price": 290,
           "image": "/images/products/crop-27d210f2-8747-41f5-844a-733c2f7b7ad7.webp",
@@ -1721,7 +1721,7 @@
         },
         {
           "id": 426594,
-          "name": "Pesto &amp; Walnut Dip",
+          "name": "Pesto & Walnut Dip",
           "description": "",
           "price": 39,
           "image": "",
