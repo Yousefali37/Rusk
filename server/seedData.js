@@ -68,17 +68,37 @@ export function populate(d) {
   setSetting('logo', s.logo || '')
   setSetting('hero_image', s.hero_image || '')
   setSetting('hero_title', s.hero_title || 'Rusk')
+  setSetting('hero_eyebrow', s.hero_eyebrow || 'Speciality Coffee & Bakery — Doha, Qatar')
+  setSetting('hero_tagline', s.hero_tagline || 'a taste of Rusk')
   setSetting(
     'hero_subtitle',
     s.hero_subtitle ||
       'Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in Doha 7GPF QV Doha, Qatar.',
+  )
+  setSetting(
+    'marquee_items',
+    s.marquee_items || [
+      'Speciality Coffee',
+      'Artisan Bakery',
+      'Fresh Croissants',
+      'Signature Matcha',
+      'London Cake',
+      'Flatbreads',
+      'Breakfast All Day',
+    ],
+  )
+  setSetting('menu_eyebrow', s.menu_eyebrow || 'Made to Order')
+  setSetting(
+    'menu_subtitle',
+    s.menu_subtitle ||
+      'Pick a category to browse it, then flip through the pagination for more dishes. Every plate is made fresh at Rusk in Doha 7GPF QV Doha.',
   )
   setSetting('today_badge', s.today_badge || "Today's Special")
   setSetting('today_product_id', today ? today.id : todayId)
   setSetting('gallery', gallery)
   setSetting('insta_eyebrow', s.insta_eyebrow || 'From the Café')
   setSetting('insta_heading', s.insta_heading || 'Follow Us on *Instagram*')
-  setSetting('insta_subtitle', s.insta_subtitle || 'Fresh bakes, perfect pours and the moments between — tagged from Brown.')
+  setSetting('insta_subtitle', s.insta_subtitle || 'Fresh bakes, perfect pours and the moments between — tagged from Rusk.')
   setSetting('insta_posts', s.insta_posts || [])
   setSetting('contact_address', s.contact_address || '')
   setSetting('contact_phone', s.contact_phone || '')

@@ -3,6 +3,7 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { Reveal } from '../Reveal.jsx'
 import { EASE, fadeUp, stagger } from '../motion.js'
 import ProductModal from './ProductModal.jsx'
+import { DEFAULT_MENU_EYEBROW, DEFAULT_MENU_SUBTITLE } from '../../contentDefaults.js'
 
 function clip(str, n) {
   const s = (str || '').trim()
@@ -188,13 +189,12 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
       <div className="container">
         <div className="section-head">
           <Reveal>
-            <span className="eyebrow">Made to Order</span>
+            <span className="eyebrow">{site.menu_eyebrow || DEFAULT_MENU_EYEBROW}</span>
             <h2>
               Taste the <em>Menu</em>
             </h2>
             <p>
-              Pick a category to browse it, then flip through the pagination for more dishes. Every
-              plate is made fresh at Rusk in Doha 7GPF QV Doha.
+              {site.menu_subtitle || DEFAULT_MENU_SUBTITLE}
             </p>
           </Reveal>
         </div>

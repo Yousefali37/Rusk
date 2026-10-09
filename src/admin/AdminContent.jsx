@@ -7,6 +7,13 @@ import {
   DEFAULT_INSTA_SUBTITLE,
   DEFAULT_INSTA_POSTS,
 } from '../instagramDefaults.js'
+import {
+  DEFAULT_HERO_EYEBROW,
+  DEFAULT_HERO_TAGLINE,
+  DEFAULT_MENU_EYEBROW,
+  DEFAULT_MENU_SUBTITLE,
+  DEFAULT_MARQUEE_ITEMS,
+} from '../contentDefaults.js'
 
 function PostImageRow({ token, value, onChange, onUnauthorized }) {
   const fileRef = useRef(null)
@@ -78,6 +85,10 @@ export default function AdminContent({ token, onUnauthorized }) {
               Array.isArray(s.insta_posts) && s.insta_posts.length
                 ? s.insta_posts
                 : DEFAULT_INSTA_POSTS.map((p) => ({ ...p })),
+            marquee_items:
+              Array.isArray(s.marquee_items) && s.marquee_items.length
+                ? s.marquee_items
+                : [...DEFAULT_MARQUEE_ITEMS],
           })
           setMenu(m)
         }
@@ -151,11 +162,62 @@ export default function AdminContent({ token, onUnauthorized }) {
         <Field label="Hero title">
           <input value={site.hero_title || ''} onChange={(e) => set('hero_title', e.target.value)} />
         </Field>
+        <Field label="Hero eyebrow (small text above the title)">
+          <input
+            placeholder={DEFAULT_HERO_EYEBROW}
+            value={site.hero_eyebrow || ''}
+            onChange={(e) => set('hero_eyebrow', e.target.value)}
+          />
+        </Field>
+        <Field label="Hero tagline (italic line under the title)">
+          <input
+            placeholder={DEFAULT_HERO_TAGLINE}
+            value={site.hero_tagline || ''}
+            onChange={(e) => set('hero_tagline', e.target.value)}
+          />
+        </Field>
         <Field label="Hero subtitle">
           <textarea rows={2} value={site.hero_subtitle || ''} onChange={(e) => set('hero_subtitle', e.target.value)} />
         </Field>
       </div>
       <ImageInput label="Hero background image" token={token} value={site.hero_image} onChange={(v) => set('hero_image', v)} onUnauthorized={onUnauthorized} />
+
+      <h3 className="block-title">Marquee ticker</h3>
+      <Field label="Ticker items (one per line)">
+        <textarea
+          rows={4}
+          placeholder={DEFAULT_MARQUEE_ITEMS.join('\n')}
+          value={(site.marquee_items || []).join('\n')}
+          onChange={(e) =>
+            set(
+              'marquee_items',
+              e.target.value
+                .split('\n')
+                .map((t) => t.trim())
+                .filter(Boolean),
+            )
+          }
+        />
+      </Field>
+
+      <h3 className="block-title">Menu section</h3>
+      <div className="grid-2">
+        <Field label="Menu eyebrow">
+          <input
+            placeholder={DEFAULT_MENU_EYEBROW}
+            value={site.menu_eyebrow || ''}
+            onChange={(e) => set('menu_eyebrow', e.target.value)}
+          />
+        </Field>
+      </div>
+      <Field label="Menu subtitle">
+        <textarea
+          rows={2}
+          placeholder={DEFAULT_MENU_SUBTITLE}
+          value={site.menu_subtitle || ''}
+          onChange={(e) => set('menu_subtitle', e.target.value)}
+        />
+      </Field>
 
       <h3 className="block-title">Today's special</h3>
       <div className="grid-2">

@@ -1,6 +1,11 @@
 import { useRef, useState } from 'react'
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion'
 import { AnimatedTitle } from '../Reveal.jsx'
+import {
+  DEFAULT_HERO_EYEBROW,
+  DEFAULT_HERO_TAGLINE,
+  DEFAULT_MARQUEE_ITEMS,
+} from '../../contentDefaults.js'
 
 const RING_TEXT = 'RUSK CAFE • SPECIALITY COFFEE & BAKERY • DOHA • QATAR • '
 const HERO_FALLBACK_IMAGE = '/images/rusk/hero.jpg'
@@ -21,12 +26,12 @@ function RotatingBadge({ text = RING_TEXT }) {
   )
 }
 
-function Ticker() {
-  const items = ['Speciality Coffee', 'Artisan Bakery', 'Fresh Croissants', 'Signature Matcha', 'London Cake', 'Flatbreads', 'Breakfast All Day']
-  const row = [...items, ...items]
+function Ticker({ items }) {
+  const list = Array.isArray(items) && items.length ? items : DEFAULT_MARQUEE_ITEMS
+  const row = [...list, ...list]
   const strip = (start) =>
     row.map((t, i) => (
-      <span className="ticker-item" key={`${start}-${i}`} aria-hidden={i >= items.length || start === 1}>
+      <span className="ticker-item" key={`${start}-${i}`} aria-hidden={i >= list.length || start === 1}>
         {t}
         <span className="ticker-star" aria-hidden="true">
           ✦
@@ -46,7 +51,7 @@ function Ticker() {
 export default function Hero({ site }) {
   const reduced = useReducedMotion()
   const ref = useRef(null)
-  const { hero_title, hero_subtitle, hero_image, today_product, today_badge } = site || {}
+  const { hero_title, hero_subtitle, hero_eyebrow, hero_tagline, hero_image, marquee_items, today_product, today_badge } = site || {}
 
   const media = hero_image || (today_product && today_product.image) || ''
   const [brokenSrc, setBrokenSrc] = useState(() => new Set())
@@ -72,12 +77,12 @@ export default function Hero({ site }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
             >
-              Speciality Coffee &amp; Bakery — Doha 7GPF QV Doha
+              {hero_eyebrow || DEFAULT_HERO_EYEBROW}
             </motion.span>
 
             <h1 className="hero-title">
               <AnimatedTitle text={hero_title || 'Rusk'} as="span" />
-              <span className="hero-title-italic">a taste of Brown</span>
+              <span className="hero-title-italic">{hero_tagline || DEFAULT_HERO_TAGLINE}</span>
             </h1>
 
             <motion.p
@@ -122,7 +127,7 @@ export default function Hero({ site }) {
               ) : (
                 <div className="hero-frame-fallback">
                   <span className="brand-mark lg">
-                    <span>B</span>
+                    <span>R</span>
                   </span>
                 </div>
               )}
@@ -149,7 +154,7 @@ export default function Hero({ site }) {
           <span />
         </motion.a>
       </section>
-      <Ticker />
+      <Ticker items={marquee_items} />
     </>
   )
 }
