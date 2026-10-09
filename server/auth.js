@@ -1,7 +1,7 @@
 import crypto from 'node:crypto'
 
 const PASSWORD =
-  process.env.ADMIN_PASSWORD || 'BrownCafe'
+  process.env.ADMIN_PASSWORD || 'RuskAdmin'
 
 function hashPassword(password, salt = crypto.randomBytes(16).toString('hex')) {
   const hash = crypto.scryptSync(password, salt, 32).toString('hex')

@@ -44,7 +44,7 @@ export default function Preloader({ onDone }) {
     <motion.div
       className="preloader"
       exit={{ y: '-102%', transition: { duration: 0.85, ease: [0.76, 0, 0.24, 1] } }}
-      aria-label="Loading Brown Cafe"
+      aria-label="Loading Rusk"
     >
       <div className="preloader-fade" aria-hidden="true" />
       <div className="preloader-grain" aria-hidden="true" />
@@ -52,9 +52,9 @@ export default function Preloader({ onDone }) {
       <div className="preloader-inner">
         <div className="preloader-brandbar">
           <div className="preloader-brand">
-            <img className="brand-logo" src="/logo.webp" alt="Brown Cafe" />
+            <img className="brand-logo" src="/logo.webp" alt="Rusk" />
             <div className="preloader-brand-text">
-              <span className="preloader-name">BROWN</span>
+              <span className="preloader-name">RUSK</span>
               <span className="preloader-tagline">Speciality coffee, every day.</span>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Preloader({ onDone }) {
 
         <div className="preloader-stage">
           <p className="preloader-giant" aria-hidden="true">
-            BROWN
+            RUSK
           </p>
 
           <div className="preloader-cluster">
@@ -134,7 +134,7 @@ export default function Preloader({ onDone }) {
       </div>
 
       <div className="preloader-bar">
-        <p className="preloader-meta">© {year} Brown Cafe · West Walk, Qatar</p>
+        <p className="preloader-meta">© {year} Rusk · West Walk, Qatar</p>
         <p className="preloader-hint">setting the table</p>
       </div>
     </motion.div>

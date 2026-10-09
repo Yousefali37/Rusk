@@ -2,7 +2,7 @@ import { useRef, useState } from 'react'
 import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion'
 import { AnimatedTitle } from '../Reveal.jsx'
 
-const RING_TEXT = 'BROWN CAFE • SPECIALITY COFFEE & BAKERY • WEST WALK • QATAR • '
+const RING_TEXT = 'RUSK CAFE • SPECIALITY COFFEE & BAKERY • DOHA • QATAR • '
 const HERO_FALLBACK_IMAGE = '/images/hero.svg'
 
 function RotatingBadge({ text = RING_TEXT }) {
@@ -72,11 +72,11 @@ export default function Hero({ site }) {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.7, delay: 0.25, ease: [0.22, 1, 0.36, 1] }}
             >
-              Speciality Coffee &amp; Bakery — West Walk, Qatar
+              Speciality Coffee &amp; Bakery — Doha 7GPF QV Doha
             </motion.span>
 
             <h1 className="hero-title">
-              <AnimatedTitle text={hero_title || 'Brown Cafe'} as="span" />
+              <AnimatedTitle text={hero_title || 'Rusk'} as="span" />
               <span className="hero-title-italic">a taste of Brown</span>
             </h1>
 
@@ -87,7 +87,7 @@ export default function Hero({ site }) {
               transition={{ duration: 0.7, delay: 0.45, ease: [0.22, 1, 0.36, 1] }}
             >
               {hero_subtitle ||
-                'Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in West Walk, Qatar.'}
+                'Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in Doha 7GPF QV Doha.'}
             </motion.p>
 
             <motion.div
@@ -118,7 +118,7 @@ export default function Hero({ site }) {
           >
             <motion.div className="hero-frame" style={reduced ? undefined : { y: imgY }}>
               {imgSrc ? (
-                <img src={imgSrc} alt={hero_title || 'Brown Cafe'} onError={onImgError} fetchPriority="high" />
+                <img src={imgSrc} alt={hero_title || 'Rusk'} onError={onImgError} fetchPriority="high" />
               ) : (
                 <div className="hero-frame-fallback">
                   <span className="brand-mark lg">

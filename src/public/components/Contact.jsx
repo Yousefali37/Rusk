@@ -112,7 +112,7 @@ export default function Contact({ site }) {
 
         <div className="contact-grid">
           <Reveal className="contact-panel">
-            <h3 className="contact-title">{site.site_name || 'Brown Cafe'}</h3>
+            <h3 className="contact-title">{site.site_name || 'Rusk'}</h3>
             <div className="info-list">
               <InfoRow label="Address" value={site.contact_address} />
               <InfoRow
@@ -155,7 +155,7 @@ export default function Contact({ site }) {
             {site.contact_map && (
               <div className="map-wrap">
                 <iframe
-                  title="Brown Cafe location"
+                  title="Rusk location"
                   src={site.contact_map}
                   loading="lazy"
                   referrerPolicy="no-referrer-when-downgrade"

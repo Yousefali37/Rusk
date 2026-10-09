@@ -19,7 +19,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 export const isVercel = process.env.VERCEL === '1'
 
-const DB_PATHNAME = 'data/brown-cafe.db'
+const DB_PATHNAME = 'data/rusk.db'
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 function authFor(kind) {
@@ -77,17 +77,17 @@ export async function restoreDb(dbPath) {
 
 /**
  * First boot with no Blob snapshot: ship the repo-tracked database
- * (server/data/brown-cafe.db) so production starts from the local content.
+ * (server/data/rusk.db) so production starts from the local content.
  * Returns true when a file ended up at dbPath.
  */
 export function seedFromBundledDb(dbPath) {
   try {
     if (fs.existsSync(dbPath) && fs.statSync(dbPath).size > 0) return true
-    const bundled = path.join(__dirname, 'data', 'brown-cafe.db')
+    const bundled = path.join(__dirname, 'data', 'rusk.db')
     if (!fs.existsSync(bundled)) return false
     fs.mkdirSync(path.dirname(dbPath), { recursive: true })
     fs.copyFileSync(bundled, dbPath)
-    console.log('[persist] first boot: copied bundled server/data/brown-cafe.db')
+    console.log('[persist] first boot: copied bundled server/data/rusk.db')
     return true
   } catch (err) {
     console.error('[persist] bundled DB copy failed:', err.message)

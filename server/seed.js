@@ -1,5 +1,5 @@
 /**
- * CLI seeder — re-seeds the database from server/seed-data/brown-menu.json.
+ * CLI seeder — re-seeds the database from server/seed-data/rusk-menu.json.
  *
  * Usage:
  *   node server/seed.js            # skip if already seeded
@@ -26,7 +26,7 @@ if (catCount > 0 && !force) {
 
 const stats = populate(loadMenuData())
 console.log(
-  `Seeded "Brown Cafe": ${stats.categories} categories, ${stats.products} products, ${stats.gallery} gallery items.`,
+  `Seeded "Rusk": ${stats.categories} categories, ${stats.products} products, ${stats.gallery} gallery items.`,
   `Today's item: "${stats.today ?? 'none'}"`,
 )
 console.log(`Reseed any time with: node server/seed.js --force`)

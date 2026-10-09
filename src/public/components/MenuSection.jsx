@@ -194,7 +194,7 @@ export default function MenuSection({ site, selection, focusId, onSelect, search
             </h2>
             <p>
               Pick a category to browse it, then flip through the pagination for more dishes. Every
-              plate is made fresh at Brown Cafe in West Walk, Qatar.
+              plate is made fresh at Rusk in Doha 7GPF QV Doha.
             </p>
           </Reveal>
         </div>

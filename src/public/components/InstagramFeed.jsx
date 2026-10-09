@@ -30,7 +30,7 @@ export default function InstagramFeed({ site }) {
   const segs = (handle?.match(/instagram\.com\/?(.*)$/)?.[1] || '').split('/').filter(Boolean)
   const first = segs[0]
   const RESERVED = ['p', 'reel', 'tv', 'explore', 'stories', 'share']
-  const handleLabel = first && !RESERVED.includes(first) ? '@' + first.replace(/^@/, '') : '@browncafe.qa'
+  const handleLabel = first && !RESERVED.includes(first) ? '@' + first.replace(/^@/, '') : '@rusk.qa'
 
   const posts =
     Array.isArray(site?.insta_posts) && site.insta_posts.length
@@ -56,7 +56,7 @@ export default function InstagramFeed({ site }) {
           <Reveal>
             <a
               className="btn-line insta-follow"
-              href={handle || 'https://www.instagram.com/browncafe.qa/'}
+              href={handle || 'https://www.instagram.com/rusk.qa/'}
               target="_blank"
               rel="noreferrer noopener"
             >
@@ -80,7 +80,7 @@ export default function InstagramFeed({ site }) {
             <motion.a
               key={i}
               className={`insta-card ${tileClass(i, visible.length)}`}
-              href={post.url || (handle || 'https://www.instagram.com/browncafe.qa/')}
+              href={post.url || (handle || 'https://www.instagram.com/rusk.qa/')}
               target="_blank"
               rel="noreferrer noopener"
               variants={fadeUp}
@@ -88,7 +88,7 @@ export default function InstagramFeed({ site }) {
             >
               <img
                 src={post.src}
-                alt="Brown Cafe on Instagram"
+                alt="Rusk on Instagram"
                 loading="lazy"
                 style={{ objectFit: post.fit || 'cover', objectPosition: post.pos || 'center' }}
               />

@@ -65,7 +65,7 @@ export default function ProductModal({ product, category, onClose }) {
               {product.description ? (
                 <p className="product-modal-desc">{product.description}</p>
               ) : (
-                <p className="product-modal-desc muted">Made fresh at Brown Cafe in West Walk, Qatar.</p>
+                <p className="product-modal-desc muted">Made fresh at Rusk in Doha 7GPF QV Doha.</p>
               )}
               <p className="product-modal-price">
                 {product.price > 0 ? `QAR ${Number(product.price).toFixed(2)}` : 'Price on request'}

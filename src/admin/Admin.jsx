@@ -68,9 +68,9 @@ export default function Admin() {
     <div className="admin-shell">
       <aside className="admin-sidebar">
         <div className="admin-brand">
-          <img className="admin-logo" src="/logo.webp" alt="Brown Cafe" />
+          <img className="admin-logo" src="/logo.webp" alt="Rusk" />
           <div>
-            <strong>Brown Cafe</strong>
+            <strong>Rusk</strong>
             <span className="muted small">Admin</span>
           </div>
         </div>

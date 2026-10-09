@@ -5,13 +5,13 @@ import { fileURLToPath } from 'node:url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
-const DEFAULT_SRC = path.join(__dirname, 'seed-data', 'brown-menu.json')
+const DEFAULT_SRC = path.join(__dirname, 'seed-data', 'rusk-menu.json')
 
 export function loadMenuData(src) {
   const file = src || process.env.SEED_SOURCE || DEFAULT_SRC
   if (!fs.existsSync(file)) {
     throw new Error(
-      `Seed data not found at: ${file}. Make sure server/seed-data/brown-menu.json exists or set SEED_SOURCE.`,
+      `Seed data not found at: ${file}. Make sure server/seed-data/rusk-menu.json exists or set SEED_SOURCE.`,
     )
   }
   return JSON.parse(fs.readFileSync(file, 'utf8'))
@@ -64,14 +64,14 @@ export function populate(d) {
 
   const gallery = (d.gallery || []).map((g) => ({ src: g.src, caption: g.caption || '' }))
 
-  setSetting('site_name', s.site_name || 'Brown Cafe')
+  setSetting('site_name', s.site_name || 'Rusk')
   setSetting('logo', s.logo || '')
   setSetting('hero_image', s.hero_image || '')
-  setSetting('hero_title', s.hero_title || 'Brown Cafe')
+  setSetting('hero_title', s.hero_title || 'Rusk')
   setSetting(
     'hero_subtitle',
     s.hero_subtitle ||
-      'Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in West Walk, Qatar.',
+      'Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in Doha 7GPF QV Doha, Qatar.',
   )
   setSetting('today_badge', s.today_badge || "Today's Special")
   setSetting('today_product_id', today ? today.id : todayId)
@@ -88,7 +88,7 @@ export function populate(d) {
     'contact_map',
     s.contact_map ||
       'https://www.google.com/maps?q=' +
-        encodeURIComponent('West Walk, Qatar') +
+        encodeURIComponent('Doha 7GPF QV Doha, Qatar') +
         '&output=embed',
   )
   setSetting('social_instagram', s.social_instagram || '')
@@ -97,7 +97,7 @@ export function populate(d) {
   setSetting('social_talabat', s.social_talabat || '')
   setSetting('snoonu', s.snoonu || '')
   setSetting('rafeeq', s.rafeeq || '')
-  setSetting('footer_text', s.footer_text || 'Speciality coffee & bakery, made fresh every day in West Walk, Qatar.')
+  setSetting('footer_text', s.footer_text || 'Speciality coffee & bakery, made fresh every day in Doha 7GPF QV Doha, Qatar.')
   setSetting('footer_background', s.footer_background || '')
 
   return {

@@ -10,8 +10,8 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url))
 export const DB_PATH =
   process.env.DB_PATH ||
   (process.env.VERCEL === '1'
-    ? path.join('/tmp', 'brown-cafe.db')
-    : path.join(__dirname, 'data', 'brown-cafe.db'))
+    ? path.join('/tmp', 'rusk.db')
+    : path.join(__dirname, 'data', 'rusk.db'))
 
 fs.mkdirSync(path.dirname(DB_PATH), { recursive: true })
 

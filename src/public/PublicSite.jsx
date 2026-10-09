@@ -82,7 +82,7 @@ export default function PublicSite() {
     return (
       <div className="boot-loading">
         <div className="boot-logo">
-          <img src="/logo.webp" alt="Brown Cafe" />
+          <img src="/logo.webp" alt="Rusk" />
         </div>
         <p>Setting the table…</p>
       </div>
