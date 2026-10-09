@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform, useReducedMotion } from 'framer-motion
 import { AnimatedTitle } from '../Reveal.jsx'
 
 const RING_TEXT = 'RUSK CAFE • SPECIALITY COFFEE & BAKERY • DOHA • QATAR • '
-const HERO_FALLBACK_IMAGE = '/images/hero.svg'
+const HERO_FALLBACK_IMAGE = '/images/rusk/hero.jpg'
 
 function RotatingBadge({ text = RING_TEXT }) {
   return (
@@ -16,7 +16,7 @@ function RotatingBadge({ text = RING_TEXT }) {
           <textPath href="#badge-circle">{text}</textPath>
         </text>
       </svg>
-      <span className="circle-badge-core">B</span>
+      <span className="circle-badge-core">R</span>
     </span>
   )
 }

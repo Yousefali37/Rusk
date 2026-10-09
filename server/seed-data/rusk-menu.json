@@ -2,120 +2,130 @@
   "name": "rusk",
   "settings": {
     "site_name": "Rusk",
-    "logo": "/logo.webp",
-    "hero_image": "/images/hero.webp",
+    "logo": "/images/rusk/logo.png",
+    "hero_image": "/images/rusk/hero.jpg",
     "hero_title": "Rusk",
-    "hero_subtitle": "Speciality coffee, artisan bakery and indulgent desserts \u2014 baked fresh every day in Doha 7GPF QV Doha, Qatar.",
+    "hero_subtitle": "Speciality coffee, artisan bakery and indulgent desserts — baked fresh every day in Doha 7GPF QV Doha, Qatar.",
     "today_badge": "Today's Special",
     "gallery": [
       {
-        "src": "/images/categories/crop-98bcb179-a3b3-422a-85c6-8b5a5ad5e22f.webp",
-        "caption": "BREAKFAST"
+        "src": "/images/rusk/products/truffle-mushroom-danish.jpg",
+        "caption": "Viennoiserie"
       },
       {
-        "src": "/images/categories/crop-5fc7966d-a2e9-4c73-bc9e-56121f769bf8.webp",
-        "caption": "Paris Hot Chocolate"
+        "src": "/images/rusk/products/turkey-mushroom-quiche.jpg",
+        "caption": "All- Day Brunch"
       },
       {
-        "src": "/images/categories/crop-fc2e7f0a-af63-4c67-91ff-22a517dfad24.webp",
-        "caption": "Cakes & Desserts"
+        "src": "/images/rusk/products/chopped-kale-salad.jpg",
+        "caption": "Salad"
       },
       {
-        "src": "/images/categories/crop-b4aa0eaf-d405-4fe8-bcd7-b837f3933b78.webp",
-        "caption": "COFFEE - Hot / Iced"
+        "src": "/images/rusk/products/egg-salad-over-toasted-multigrain-bread.jpg",
+        "caption": "Sandwiches & Tartines"
       },
       {
-        "src": "/images/categories/crop-1cc5b3f8-3290-42b3-85b9-1280e4faa49c.webp",
-        "caption": "Beverages"
+        "src": "/images/rusk/products/falafel-flat-bread.jpg",
+        "caption": "Baked Specials"
       },
       {
-        "src": "/images/categories/crop-5231f49b-ed5b-433d-a528-de864b559dcb.webp",
-        "caption": "BAKERY"
+        "src": "/images/rusk/products/rusk-cheeseburger.jpg",
+        "caption": "Signature Special"
       },
       {
-        "src": "/images/categories/crop-603db65a-c788-40b0-9c5e-b3fcc6b9d4af.webp",
-        "caption": "Honey Toast"
+        "src": "/images/rusk/products/sourdough-loaf.jpg",
+        "caption": "Breads"
       },
       {
-        "src": "/images/categories/crop-83b02e95-0c64-4d51-9345-302adcb82a9b.webp",
-        "caption": "SANDWICHES"
+        "src": "/images/rusk/products/berry-hot-sponge.jpg",
+        "caption": "Desserts"
       },
       {
-        "src": "/images/categories/crop-f044c873-01bf-4802-9843-039d48623ee3.webp",
-        "caption": "SALAD"
+        "src": "/images/rusk/products/orange-roasted-peach-ricotta-cake.jpg",
+        "caption": "Cakes"
       },
       {
-        "src": "/images/categories/crop-f7868204-2ce5-4245-b832-52185587be21.webp",
-        "caption": "TRAY CAKES"
+        "src": "/images/rusk/products/rose-cream-top-latte.jpg",
+        "caption": "Specialty Coffee"
       },
       {
-        "src": "/images/categories/crop-2f29c150-2f36-4d45-a2cd-084eafaa59cd.webp",
-        "caption": "Packages & Boxes"
+        "src": "/images/rusk/products/fresh-orange-juice.jpg",
+        "caption": "Juices"
+      },
+      {
+        "src": "/images/rusk/products/healthy-blueberry-banana-smoothie.jpg",
+        "caption": "Signatures"
+      },
+      {
+        "src": "/images/rusk/products/royal-breakfast.jpg",
+        "caption": "Tea"
+      },
+      {
+        "src": "/images/rusk/products/soda-sprite.webp",
+        "caption": "Softdrinks"
+      },
+      {
+        "src": "/images/rusk/products/french-fries.jpg",
+        "caption": "Sides"
+      },
+      {
+        "src": "/images/rusk/products/almond-milk-20ml.jpg",
+        "caption": "Alternative Milk"
       }
     ],
-    "insta_eyebrow": "From the Caf\u00e9",
+    "insta_eyebrow": "From the Rusk",
     "insta_heading": "Follow Us on *Instagram*",
-    "insta_subtitle": "Fresh bakes, perfect pours and the moments between \u2014 tagged from Brown.",
+    "insta_subtitle": "Fresh bakes, perfect pours and the moments between - tagged from Rusk.",
     "insta_posts": [
       {
-        "src": "/images/instagram/ig-Dd8lXWOslNa.jpg",
-        "url": "https://www.instagram.com/p/Dd8lXWOslNa/",
-        "caption": ""
+        "src": "/images/rusk/products/truffle-mushroom-danish.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Viennoiserie"
       },
       {
-        "src": "/images/instagram/ig-Dc07-PWFxAl.jpg",
-        "url": "https://www.instagram.com/p/Dc07-PWFxAl/",
-        "caption": ""
+        "src": "/images/rusk/products/turkey-mushroom-quiche.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "All- Day Brunch"
       },
       {
-        "src": "/images/instagram/ig-DctbUQ6F9pR.jpg",
-        "url": "https://www.instagram.com/p/DctbUQ6F9pR/",
-        "caption": "Freshness in every bite."
+        "src": "/images/rusk/products/egg-salad-over-toasted-multigrain-bread.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Sandwiches & Tartines"
       },
       {
-        "src": "/images/instagram/ig-DbQdMNvhsrR.jpg",
-        "url": "https://www.instagram.com/p/DbQdMNvhsrR/",
-        "caption": "Slow mornings, fresh flavors"
+        "src": "/images/rusk/products/berry-hot-sponge.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Desserts"
       },
       {
-        "src": "/images/instagram/ig-DbIwue5CELt.jpg",
-        "url": "https://www.instagram.com/p/DbIwue5CELt/",
-        "caption": "Freshly baked. Freshly brewed. Simply perfect"
+        "src": "/images/rusk/products/orange-roasted-peach-ricotta-cake.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Cakes"
       },
       {
-        "src": "/images/instagram/ig-DX9I1s6CmjD.jpg",
-        "url": "https://www.instagram.com/p/DX9I1s6CmjD/",
-        "caption": "This isnt just a salad its a whole mood"
+        "src": "/images/rusk/products/rose-cream-top-latte.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Specialty Coffee"
       },
       {
-        "src": "/images/instagram/ig-DYCraIBAq2o.jpg",
-        "url": "https://www.instagram.com/p/DYCraIBAq2o/",
-        "caption": "Golden crunch, honey touch"
+        "src": "/images/rusk/products/fresh-orange-juice.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Juices"
       },
       {
-        "src": "/images/instagram/ig-DWtvmlGAi69.jpg",
-        "url": "https://www.instagram.com/p/DWtvmlGAi69/",
-        "caption": "Sweet tooth satisfied"
+        "src": "/images/rusk/products/sourdough-loaf.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Breads"
       },
       {
-        "src": "/images/instagram/ig-DWy3DrBAkw7.jpg",
-        "url": "https://www.instagram.com/p/DWy3DrBAkw7/",
-        "caption": "Bermuda bite"
+        "src": "/images/rusk/products/healthy-blueberry-banana-smoothie.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Signatures"
       },
       {
-        "src": "/images/instagram/ig-DUnmRwRDOxx.jpg",
-        "url": "https://www.instagram.com/p/DUnmRwRDOxx/",
-        "caption": "All about the layers"
-      },
-      {
-        "src": "/images/instagram/ig-DU0dfy0DJCC.webp",
-        "url": "https://www.instagram.com/p/DU0dfy0DJCC/",
-        "caption": ""
-      },
-      {
-        "src": "/images/instagram/ig-DRhLpsZjJXM.jpg",
-        "url": "https://www.instagram.com/p/DRhLpsZjJXM/",
-        "caption": "Warm up your day with our rich hot chocolate"
+        "src": "/images/rusk/products/chopped-kale-salad.jpg",
+        "url": "https://www.instagram.com/rusk.qa/",
+        "caption": "Salad"
       }
     ],
     "contact_address": "Doha 7GPF QV Doha, Qatar",
@@ -136,65 +146,85 @@
   "today_product_id": 1,
   "gallery": [
     {
-      "src": "/images/categories/crop-98bcb179-a3b3-422a-85c6-8b5a5ad5e22f.webp",
-      "caption": "BREAKFAST"
+      "src": "/images/rusk/products/truffle-mushroom-danish.jpg",
+      "caption": "Viennoiserie"
     },
     {
-      "src": "/images/categories/crop-5fc7966d-a2e9-4c73-bc9e-56121f769bf8.webp",
-      "caption": "Paris Hot Chocolate"
+      "src": "/images/rusk/products/turkey-mushroom-quiche.jpg",
+      "caption": "All- Day Brunch"
     },
     {
-      "src": "/images/categories/crop-fc2e7f0a-af63-4c67-91ff-22a517dfad24.webp",
-      "caption": "Cakes & Desserts"
+      "src": "/images/rusk/products/chopped-kale-salad.jpg",
+      "caption": "Salad"
     },
     {
-      "src": "/images/categories/crop-b4aa0eaf-d405-4fe8-bcd7-b837f3933b78.webp",
-      "caption": "COFFEE - Hot / Iced"
+      "src": "/images/rusk/products/egg-salad-over-toasted-multigrain-bread.jpg",
+      "caption": "Sandwiches & Tartines"
     },
     {
-      "src": "/images/categories/crop-1cc5b3f8-3290-42b3-85b9-1280e4faa49c.webp",
-      "caption": "Beverages"
+      "src": "/images/rusk/products/falafel-flat-bread.jpg",
+      "caption": "Baked Specials"
     },
     {
-      "src": "/images/categories/crop-5231f49b-ed5b-433d-a528-de864b559dcb.webp",
-      "caption": "BAKERY"
+      "src": "/images/rusk/products/rusk-cheeseburger.jpg",
+      "caption": "Signature Special"
     },
     {
-      "src": "/images/categories/crop-603db65a-c788-40b0-9c5e-b3fcc6b9d4af.webp",
-      "caption": "Honey Toast"
+      "src": "/images/rusk/products/sourdough-loaf.jpg",
+      "caption": "Breads"
     },
     {
-      "src": "/images/categories/crop-83b02e95-0c64-4d51-9345-302adcb82a9b.webp",
-      "caption": "SANDWICHES"
+      "src": "/images/rusk/products/berry-hot-sponge.jpg",
+      "caption": "Desserts"
     },
     {
-      "src": "/images/categories/crop-f044c873-01bf-4802-9843-039d48623ee3.webp",
-      "caption": "SALAD"
+      "src": "/images/rusk/products/orange-roasted-peach-ricotta-cake.jpg",
+      "caption": "Cakes"
     },
     {
-      "src": "/images/categories/crop-f7868204-2ce5-4245-b832-52185587be21.webp",
-      "caption": "TRAY CAKES"
+      "src": "/images/rusk/products/rose-cream-top-latte.jpg",
+      "caption": "Specialty Coffee"
     },
     {
-      "src": "/images/categories/crop-2f29c150-2f36-4d45-a2cd-084eafaa59cd.webp",
-      "caption": "Packages & Boxes"
+      "src": "/images/rusk/products/fresh-orange-juice.jpg",
+      "caption": "Juices"
+    },
+    {
+      "src": "/images/rusk/products/healthy-blueberry-banana-smoothie.jpg",
+      "caption": "Signatures"
+    },
+    {
+      "src": "/images/rusk/products/royal-breakfast.jpg",
+      "caption": "Tea"
+    },
+    {
+      "src": "/images/rusk/products/soda-sprite.webp",
+      "caption": "Softdrinks"
+    },
+    {
+      "src": "/images/rusk/products/french-fries.jpg",
+      "caption": "Sides"
+    },
+    {
+      "src": "/images/rusk/products/almond-milk-20ml.jpg",
+      "caption": "Alternative Milk"
     }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "BREAKFAST",
+      "name": "Viennoiserie",
       "description": "",
-      "image": "/images/categories/crop-98bcb179-a3b3-422a-85c6-8b5a5ad5e22f.webp",
+      "image": "/images/rusk/products/truffle-mushroom-danish.jpg",
       "parent": null,
       "sort_order": 0,
       "products": [
         {
           "id": 1,
           "name": "Truffle Mushroom Danish",
-          "description": "Fresh homemade flat bread topped with Avocado spread, scrambled egg and sprinkled with parmesan cheese",
-          "price": 44,
-          "image": "/images/products/crop-f681c461-31ac-4672-9c1c-ca9e780a9db1.webp",
+          "description": "",
+          "price": 30,
+          "image": "/images/rusk/products/truffle-mushroom-danish.jpg",
           "active": 1,
           "sort_order": 0,
           "category_id": 1
@@ -202,9 +232,9 @@
         {
           "id": 2,
           "name": "Pecan Praline Cro cup",
-          "description": "Pizza dough topped with beetroot hummus, falafel and drizzled with tahini sauce.",
-          "price": 42,
-          "image": "/images/products/crop-ec845693-7a4a-4cda-b034-a2fd73a1f64d.webp",
+          "description": "",
+          "price": 30,
+          "image": "/images/rusk/products/pecan-praline-cro-cup.jpg",
           "active": 1,
           "sort_order": 1,
           "category_id": 1
@@ -212,9 +242,9 @@
         {
           "id": 3,
           "name": "Sweet Potato Danish",
-          "description": "Freshly baked homemade flat bread topped with cream cheese and drizzled with honey.",
-          "price": 42,
-          "image": "/images/products/crop-630a4b2a-56d7-4be8-ab4c-67e6b590d63f.webp",
+          "description": "",
+          "price": 30,
+          "image": "/images/rusk/products/sweet-potato-danish.jpg",
           "active": 1,
           "sort_order": 2,
           "category_id": 1
@@ -222,9 +252,9 @@
         {
           "id": 4,
           "name": "Saffron Bun",
-          "description": "Layers of Melted cheese, Fresh sour dough, Smoked Turkey, and special Sauce, topped with Sunny side egg.",
-          "price": 48,
-          "image": "/images/products/crop-b4f83161-b861-4fa8-854a-9c2a02f3c69e.webp",
+          "description": "",
+          "price": 34,
+          "image": "/images/rusk/products/saffron-bun.jpg",
           "active": 1,
           "sort_order": 3,
           "category_id": 1
@@ -232,9 +262,9 @@
         {
           "id": 5,
           "name": "Turkey & Cheese Pan Au Suisse",
-          "description": "Homemade butter croissant filled with special sauce, Avocado slices, Beef Bacon and scrambled egg.",
-          "price": 38,
-          "image": "/images/products/crop-af7e9a8a-f33b-4a0f-9a12-a9c18e2dabc3.webp",
+          "description": "",
+          "price": 32,
+          "image": "/images/rusk/products/turkey-cheese-pan-au-suisse.jpg",
           "active": 1,
           "sort_order": 4,
           "category_id": 1
@@ -242,9 +272,9 @@
         {
           "id": 6,
           "name": "Fig & Goat Cheese Danish",
-          "description": "Homemade Brioche buns filled with scrambled eggs, cheese special sauce and Jalapenos.",
+          "description": "",
           "price": 28,
-          "image": "/images/products/crop-a8dbbe68-bd83-4d25-b4b7-b467ac013a4f.webp",
+          "image": "/images/rusk/products/fig-goat-cheese-danish.jpg",
           "active": 1,
           "sort_order": 5,
           "category_id": 1
@@ -252,9 +282,9 @@
         {
           "id": 7,
           "name": "Classic Croissant",
-          "description": "Homemade Brioche bun filled with Avocado, Beef Bacon, Special sauce and Sunny Side up egg.",
-          "price": 32,
-          "image": "/images/products/crop-21d6a571-0740-4eec-a97f-2647bca94625.webp",
+          "description": "",
+          "price": 24,
+          "image": "/images/rusk/products/classic-croissant.jpg",
           "active": 1,
           "sort_order": 6,
           "category_id": 1
@@ -262,9 +292,9 @@
         {
           "id": 8,
           "name": "Pain Au Chocolat",
-          "description": "Homemade Brioche buns filled with scrambled eggs, cheese special sauce and caramelized onions.",
-          "price": 28,
-          "image": "/images/products/crop-26a5dfd3-c7f1-4aff-8edb-6b8ffda08381.webp",
+          "description": "",
+          "price": 31,
+          "image": "/images/rusk/products/pain-au-chocolat.jpg",
           "active": 1,
           "sort_order": 7,
           "category_id": 1
@@ -272,9 +302,9 @@
         {
           "id": 9,
           "name": "Double Baked Almond Croissant",
-          "description": "Homemade shakshooka sauce mixed with cream cheese and topped with eggs, served with Fresh Arabic bread",
-          "price": 48,
-          "image": "/images/products/crop-791ba47f-987d-4a24-92fa-dcbec858cb08.webp",
+          "description": "",
+          "price": 39,
+          "image": "/images/rusk/products/double-baked-almond-croissant.jpg",
           "active": 1,
           "sort_order": 8,
           "category_id": 1
@@ -282,9 +312,9 @@
         {
           "id": 10,
           "name": "Gruyere Croissant",
-          "description": "Omelette egg with kashkaval cheese sprinkled with parmesan cheese, served with toasted bread.",
-          "price": 35,
-          "image": "/images/products/crop-0832dfd9-7c3a-4e5b-85a1-8141093fbe3f.webp",
+          "description": "",
+          "price": 31,
+          "image": "/images/rusk/products/gruyere-croissant.jpg",
           "active": 1,
           "sort_order": 9,
           "category_id": 1
@@ -292,9 +322,9 @@
         {
           "id": 11,
           "name": "Double Baked Cinnamon Croissant",
-          "description": "Perfectly poached eggs, served over a greek yogurt and Toasted bread.",
-          "price": 48,
-          "image": "/images/products/crop-9987183d-95c5-4090-9ec4-d2f64e7d915d.webp",
+          "description": "",
+          "price": 35,
+          "image": "/images/rusk/products/double-baked-cinnamon-croissant.jpg",
           "active": 1,
           "sort_order": 10,
           "category_id": 1
@@ -302,19 +332,19 @@
         {
           "id": 12,
           "name": "Zaatar Roll",
-          "description": "Greek yogurt, with special granola mix, topped with fresh berries and drizzled with honey.",
-          "price": 40,
-          "image": "/images/products/crop-e9aecef1-dd81-4195-b716-7dc96edeaac8.webp",
+          "description": "",
+          "price": 31,
+          "image": "/images/rusk/products/zaatar-roll.jpg",
           "active": 1,
           "sort_order": 11,
           "category_id": 1
         },
         {
           "id": 13,
-          "name": "Chicken Jalape\u00f1o Danish",
-          "description": "Freshly baked toasted bread topped with labnah, Zaatar olive oil, sprinkled with Pomegranate seed then drizzled with pomegranate molasses",
-          "price": 38,
-          "image": "/images/products/crop-82d70564-047a-4eeb-b3ba-edfa49ed4b3b.webp",
+          "name": "Chicken Jalapeño Danish",
+          "description": "",
+          "price": 30,
+          "image": "/images/rusk/products/chicken-jalape-o-danish.jpg",
           "active": 1,
           "sort_order": 12,
           "category_id": 1
@@ -322,1465 +352,1554 @@
         {
           "id": 14,
           "name": "Cheese Tomato Danish",
-          "description": "Freshly baked toast bread topped with fresh Smashed Avocado and Poached eggs.",
-          "price": 42,
-          "image": "/images/products/crop-cc42fd8a-3053-4082-bc5c-fac796bf8c21.webp",
+          "description": "",
+          "price": 31,
+          "image": "/images/rusk/products/cheese-tomato-danish.jpg",
           "active": 1,
           "sort_order": 13,
           "category_id": 1
-        },
-        {
-          "id": 15,
-          "name": "Turkey & Mushroom Quiche",
-          "description": "Watermellon cubes top with Almond flakes, Feta Cheese and Fresh mint",
-          "price": 45,
-          "image": "/images/products/crop-ad54a69d-1e8d-4abc-9ccd-26f65b2f79fd.webp",
-          "active": 1,
-          "sort_order": 14,
-          "category_id": 1
-        },
-        {
-          "id": 16,
-          "name": "Buttermilk Pancake",
-          "description": "Perfectly soaked brioche bread, caramelised on top then topped with fresh berrie. Served with toffee nut sauce.",
-          "price": 52,
-          "image": "/images/products/crop-b85810ec-b935-465d-9b77-e577128c5f26.webp",
-          "active": 1,
-          "sort_order": 15,
-          "category_id": 1
-        },
-        {
-          "id": 934660,
-          "name": "The Ultimate Chocolate Hazelnut Cookie",
-          "description": "",
-          "price": 40,
-          "image": "",
-          "active": 1,
-          "sort_order": 16,
-          "category_id": 1
         }
-      ],
-      "_name": "BREAKFAST"
+      ]
     },
     {
       "id": 2,
-      "name": "Paris Hot Chocolate",
+      "name": "All- Day Brunch",
       "description": "",
-      "image": "/images/categories/crop-5fc7966d-a2e9-4c73-bc9e-56121f769bf8.webp",
+      "image": "/images/rusk/products/turkey-mushroom-quiche.jpg",
       "parent": null,
       "sort_order": 1,
       "products": [
         {
+          "id": 15,
+          "name": "Turkey & Mushroom Quiche",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/turkey-mushroom-quiche.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 2
+        },
+        {
+          "id": 16,
+          "name": "Buttermilk Pancake",
+          "description": "",
+          "price": 48,
+          "image": "/images/rusk/products/buttermilk-pancake.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 2
+        },
+        {
           "id": 17,
           "name": "Acai Bowl",
           "description": "",
-          "price": 38,
-          "image": "/images/products/crop-92e09ac9-1a39-44da-b1f0-8a073b79bf72.webp",
+          "price": 55,
+          "image": "/images/rusk/products/acai-bowl.jpg",
           "active": 1,
-          "sort_order": 0,
+          "sort_order": 2,
           "category_id": 2
         },
         {
           "id": 18,
           "name": "Homemade Granola Bowl",
-          "description": "An indulgent winter ritual \u2014 rich hot chocolate crowned with silky cream and delicate marshmallows.",
-          "price": 180,
-          "image": "/images/products/crop-3f834e9e-4c74-4866-b024-5486662edbd7.webp",
-          "active": 1,
-          "sort_order": 1,
-          "category_id": 2
-        },
-        {
-          "id": 843111,
-          "name": "Orange & Roasted Peach Ricotta Cake",
           "description": "",
-          "price": 26,
-          "image": "",
-          "active": 1,
-          "sort_order": 2,
-          "category_id": 2
-        },
-        {
-          "id": 973317,
-          "name": "Banana Bread & Peanut Butter",
-          "description": "",
-          "price": 29,
-          "image": "",
+          "price": 45,
+          "image": "/images/rusk/products/homemade-granola-bowl.jpg",
           "active": 1,
           "sort_order": 3,
           "category_id": 2
         },
         {
-          "id": 86249,
-          "name": "Custard Fraisier Cake Slice",
+          "id": 19,
+          "name": "Breakfast Egg Quesadilla",
           "description": "",
-          "price": 27,
-          "image": "",
+          "price": 60,
+          "image": "/images/rusk/products/breakfast-egg-quesadilla.jpg",
           "active": 1,
           "sort_order": 4,
           "category_id": 2
-        },
-        {
-          "id": 753516,
-          "name": "Chocolate Pistachio Cake Slice",
-          "description": "",
-          "price": 11,
-          "image": "",
-          "active": 1,
-          "sort_order": 5,
-          "category_id": 2
-        },
-        {
-          "id": 1986,
-          "name": "Blueberry Cheesecake Slice",
-          "description": "",
-          "price": 26,
-          "image": "",
-          "active": 1,
-          "sort_order": 6,
-          "category_id": 2
-        },
-        {
-          "id": 183943,
-          "name": "Tangy Lemon Cake Slice",
-          "description": "",
-          "price": 17,
-          "image": "",
-          "active": 1,
-          "sort_order": 7,
-          "category_id": 2
-        },
-        {
-          "id": 705145,
-          "name": "Toasted Coconut Chocolate Cake Slice",
-          "description": "",
-          "price": 37,
-          "image": "",
-          "active": 1,
-          "sort_order": 8,
-          "category_id": 2
-        },
-        {
-          "id": 764767,
-          "name": "Chocolate Peanut Butter Cake Slice",
-          "description": "",
-          "price": 14,
-          "image": "",
-          "active": 1,
-          "sort_order": 9,
-          "category_id": 2
-        },
-        {
-          "id": 13641,
-          "name": "One  slice of Isphan Sponge Cake",
-          "description": "",
-          "price": 34,
-          "image": "",
-          "active": 1,
-          "sort_order": 10,
-          "category_id": 2
-        },
-        {
-          "id": 30292,
-          "name": "Carrot & Walnut Cake Slice",
-          "description": "",
-          "price": 34,
-          "image": "",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 2
-        },
-        {
-          "id": 919914,
-          "name": "Rose Cream Top Latte",
-          "description": "",
-          "price": 11,
-          "image": "",
-          "active": 1,
-          "sort_order": 12,
-          "category_id": 2
-        }
-      ],
-      "_name": "Paris Hot Chocolate"
-    },
-    {
-      "id": 3,
-      "name": "Cakes & Desserts",
-      "description": "",
-      "image": "/images/categories/crop-fc2e7f0a-af63-4c67-91ff-22a517dfad24.webp",
-      "parent": null,
-      "sort_order": 2,
-      "products": [
-        {
-          "id": 19,
-          "name": "Breakfast Egg Quesadilla",
-          "description": "A warm chocolate cookie with a molten chocolate centre, served over a scoop of vanilla ice cream and finished with a touch of sea salt.",
-          "price": 35,
-          "image": "/images/products/crop-da55407f-2c9d-4c21-899f-d7a5055b5084.webp",
-          "active": 1,
-          "sort_order": 0,
-          "category_id": 3
         },
         {
           "id": 20,
           "name": "Rusk Breakfast",
-          "description": "A decadent layered chocolate cake featuring moist cocoa sponge and silky milk chocolate cream, finished with a smooth glaze for a luxurious bite.",
-          "price": 42,
-          "image": "/images/products/crop-147d21dd-c42e-424c-8c8f-72a6da1fe722.webp",
+          "description": "",
+          "price": 72,
+          "image": "/images/rusk/products/rusk-breakfast.jpg",
           "active": 1,
-          "sort_order": 1,
-          "category_id": 3
+          "sort_order": 5,
+          "category_id": 2
         },
         {
           "id": 21,
           "name": "Truffle Egg Mayo Sandwich",
-          "description": "Our Best selling Tiramisu is made up of Premium quality espresso.",
-          "price": 42,
-          "image": "/images/products/crop-c5c10dce-44ee-47e6-95c9-46b9ed33f8b2.webp",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/truffle-egg-mayo-sandwich.jpg",
           "active": 1,
-          "sort_order": 2,
-          "category_id": 3
+          "sort_order": 6,
+          "category_id": 2
         },
         {
           "id": 22,
           "name": "English Breakfast",
-          "description": "A rich chocolate sponge layered with smooth vanilla cream, coated in decadent chocolate ganache, topped with crispy flakes and pecan nuts, and finished with chocolate syrup for an indulgent and crunchy chocolate experience.",
-          "price": 43,
-          "image": "/images/products/crop-3a5bff9f-08c4-4510-b8da-f717b9b00776.webp",
+          "description": "",
+          "price": 66,
+          "image": "/images/rusk/products/english-breakfast.jpg",
           "active": 1,
-          "sort_order": 3,
-          "category_id": 3
+          "sort_order": 7,
+          "category_id": 2
         },
         {
           "id": 23,
           "name": "Braised Beef Cheeks Benedict",
-          "description": "Melted Chocolate cake served with homemade crispies and vanilla ice cream",
-          "price": 45,
-          "image": "/images/products/crop-a6fabb29-5eeb-4486-99f5-51884ca8f4d3.webp",
+          "description": "",
+          "price": 72,
+          "image": "/images/rusk/products/braised-beef-cheeks-benedict.jpg",
           "active": 1,
-          "sort_order": 4,
-          "category_id": 3
+          "sort_order": 8,
+          "category_id": 2
         },
         {
           "id": 24,
           "name": "Burrata & Avocado with Honey Sourdough",
-          "description": "Pecan cake with crunchy pecans and a smooth caramel touch. Perfect with coffee. Gluten-free.",
-          "price": 42,
-          "image": "/images/products/crop-c0120039-6dbb-4a3c-bfd0-defe0c110c0a.webp",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/burrata-avocado-with-honey-sourdough.jpg",
           "active": 1,
-          "sort_order": 5,
-          "category_id": 3
+          "sort_order": 9,
+          "category_id": 2
         },
         {
           "id": 25,
           "name": "Croissant Breakfast Sandwich",
-          "description": "Soft, freshly made crepe filled with smooth Kinder chocolate, drizzled with rich milk chocolate sauce.\nServed with a scoop of creamy vanilla ice cream resting on a bed of crunchy crispies for an irresistible finish.",
-          "price": 43,
-          "image": "/images/products/crop-aa8cc84a-3946-4c46-a968-da13d6f2003d.webp",
+          "description": "",
+          "price": 66,
+          "image": "/images/rusk/products/croissant-breakfast-sandwich.jpg",
           "active": 1,
-          "sort_order": 6,
-          "category_id": 3
+          "sort_order": 10,
+          "category_id": 2
         },
         {
           "id": 26,
           "name": "Poached Egg Gremolata",
-          "description": "Freshly prepared Creamy Cheese cake.",
-          "price": 40,
-          "image": "/images/products/crop-26523284-88e9-49e8-ad26-fc403832bb05.webp",
+          "description": "",
+          "price": 72,
+          "image": "/images/rusk/products/poached-egg-gremolata.jpg",
           "active": 1,
-          "sort_order": 7,
-          "category_id": 3
+          "sort_order": 11,
+          "category_id": 2
         },
         {
           "id": 27,
           "name": "Baked Beans & Fried Egg on Sourdough",
-          "description": "A delightful fusion of tropical coconut and sweet strawberries, blended with rich Vanilla Ice cream. A refreshing, indulgent treat with every spoonful.",
-          "price": 42,
-          "image": "/images/products/crop-e499419b-a0b9-470f-99da-46f6339a1311.webp",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/baked-beans-fried-egg-on-sourdough.jpg",
           "active": 1,
-          "sort_order": 8,
-          "category_id": 3
+          "sort_order": 12,
+          "category_id": 2
         },
         {
           "id": 28,
           "name": "Scrambled Shakshuka",
-          "description": "Homemade Waffle topped with Strawberry or Banana drizzled with your choice of chocolate (Milk chocolate, dark chocolate and White chocolate)\nWith your Choice of Add-ons\n- Strawberry\n- Banana\n- White Chocolate\n- Dark Chocolate\n- Milk Chocolate",
-          "price": 40,
-          "image": "/images/products/crop-db7b1d14-5f36-4dc6-986e-51cce822df3e.webp",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/scrambled-shakshuka.jpg",
           "active": 1,
-          "sort_order": 9,
-          "category_id": 3
+          "sort_order": 13,
+          "category_id": 2
         },
         {
           "id": 29,
           "name": "Egg & Bacon Brioche Bun",
-          "description": "Homemade crepe topped with Strawberry or Banana drizzled with your choice of chocolate (Milk chocolate, dark chocolate and White chocolate)\nWith your Choice of Add-ons\n- Strawberry\n- Banana\n- White Chocolate\n- Dark Chocolate\n- Milk Chocolate",
-          "price": 40,
-          "image": "/images/products/crop-bc114b57-8e24-44b6-a631-da22d6c6d4ec.webp",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/egg-bacon-brioche-bun.jpg",
           "active": 1,
-          "sort_order": 10,
-          "category_id": 3
+          "sort_order": 14,
+          "category_id": 2
         },
         {
           "id": 30,
-          "name": "Rusk\u2019s Egg Benedict",
-          "description": "Our oven fresh brownie is composed of premium quality ingredients.",
-          "price": 20,
-          "image": "/images/products/crop-93e4b827-55d0-466a-8419-88cae1405766.webp",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 3
-        },
-        {
-          "id": 222285,
-          "name": "Espresso",
+          "name": "Rusk’s Egg Benedict",
           "description": "",
-          "price": 25,
-          "image": "",
+          "price": 55,
+          "image": "/images/rusk/products/rusk-s-egg-benedict.jpg",
           "active": 1,
-          "sort_order": 12,
-          "category_id": 3
-        }
-      ],
-      "_name": "Cakes & Desserts"
-    },
-    {
-      "id": 4,
-      "name": "COFFEE - Hot / Iced",
-      "description": "",
-      "image": "/images/categories/crop-b4aa0eaf-d405-4fe8-bcd7-b837f3933b78.webp",
-      "parent": null,
-      "sort_order": 3,
-      "products": [
+          "sort_order": 15,
+          "category_id": 2
+        },
         {
           "id": 31,
           "name": "Classic Scrambled Eggs on Sourdough",
-          "description": "A bold and refreshing espresso-based drink made with rich espresso shots, chilled milk, and a touch of sweetness. Smooth, creamy, and energizing, with the perfect balance of coffee intensity and refreshing flavor.",
-          "price": 28,
-          "image": "/images/products/crop-b683b402-3e00-47de-a393-e8c83af52862.webp",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/classic-scrambled-eggs-on-sourdough.jpg",
           "active": 1,
-          "sort_order": 0,
-          "category_id": 4
+          "sort_order": 16,
+          "category_id": 2
         },
         {
           "id": 32,
           "name": "Flakey Croissant Croque Madame",
-          "description": "Coffee of the day",
-          "price": 15,
-          "image": "/images/products/crop-be6911d4-158d-42a4-bd27-bacf017b4c82.webp",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/flakey-croissant-croque-madame.jpg",
           "active": 1,
-          "sort_order": 1,
-          "category_id": 4
+          "sort_order": 17,
+          "category_id": 2
         },
         {
           "id": 33,
-          "name": "Scrambled Eggs, Spicy Sriracha &  Toasted Croissant",
+          "name": "Scrambled Eggs, Spicy Sriracha & Toasted Croissant",
           "description": "",
-          "price": 20,
-          "image": "/images/products/crop-dca97683-9cb8-403f-b9bb-859938ff4245.webp",
+          "price": 54,
+          "image": "/images/rusk/products/scrambled-eggs-spicy-sriracha-toasted-croissant.jpg",
           "active": 1,
-          "sort_order": 2,
-          "category_id": 4
+          "sort_order": 18,
+          "category_id": 2
         },
         {
           "id": 34,
-          "name": "Poached Eggs, Dill Yoghurt, Chilli Butter  with Toasted Bread",
+          "name": "Poached Eggs, Dill Yoghurt, Chilli Butter with Toasted Bread",
           "description": "",
-          "price": 26,
-          "image": "/images/products/crop-8817eeaa-11dd-4c75-83fc-a1f3bb29b1e0.webp",
+          "price": 61,
+          "image": "/images/rusk/products/poached-eggs-dill-yoghurt-chilli-butter-with-toasted-bread.jpg",
           "active": 1,
-          "sort_order": 3,
-          "category_id": 4
+          "sort_order": 19,
+          "category_id": 2
         },
         {
           "id": 35,
           "name": "Egg Royale",
           "description": "",
-          "price": 20,
-          "image": "/images/products/crop-b55fa0cb-91f8-4882-adc5-230cc29ceeda.webp",
+          "price": 61,
+          "image": "/images/rusk/products/egg-royale.jpg",
           "active": 1,
-          "sort_order": 4,
-          "category_id": 4
+          "sort_order": 20,
+          "category_id": 2
         },
         {
           "id": 36,
           "name": "Focaccia with Homemade Dips",
           "description": "",
-          "price": 0,
-          "image": "/images/products/crop-77db3f83-5ee5-4bdd-9d0d-e9da2683cbcf.webp",
+          "price": 42,
+          "image": "/images/rusk/products/focaccia-with-homemade-dips.jpg",
           "active": 1,
-          "sort_order": 5,
-          "category_id": 4
+          "sort_order": 21,
+          "category_id": 2
         },
         {
           "id": 37,
           "name": "Bakery Basket",
           "description": "",
-          "price": 28,
-          "image": "/images/products/crop-3709c08d-065c-473b-829a-6287b681d631.webp",
+          "price": 40,
+          "image": "/images/rusk/products/bakery-basket.jpg",
           "active": 1,
-          "sort_order": 6,
-          "category_id": 4
-        },
+          "sort_order": 22,
+          "category_id": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Salad",
+      "description": "",
+      "image": "/images/rusk/products/chopped-kale-salad.jpg",
+      "parent": null,
+      "sort_order": 2,
+      "products": [
         {
           "id": 38,
           "name": "Chopped Kale Salad",
           "description": "",
-          "price": 24,
-          "image": "/images/products/crop-02e3a0f0-6b5f-4b04-9488-3a04782b8f92.webp",
+          "price": 45,
+          "image": "/images/rusk/products/chopped-kale-salad.jpg",
           "active": 1,
-          "sort_order": 7,
-          "category_id": 4
+          "sort_order": 0,
+          "category_id": 3
         },
         {
           "id": 39,
           "name": "Chicken Jalapeno Salad",
           "description": "",
-          "price": 26,
-          "image": "/images/products/crop-a0dafdd3-1ba9-410c-8e54-1d915ebfeb87.webp",
+          "price": 55,
+          "image": "/images/rusk/products/chicken-jalapeno-salad.jpg",
           "active": 1,
-          "sort_order": 8,
-          "category_id": 4
+          "sort_order": 1,
+          "category_id": 3
         },
         {
           "id": 40,
           "name": "Chicken Caesar Salad (Chicken, Egg & Bacon)",
           "description": "",
-          "price": 26,
-          "image": "/images/products/crop-5d69b88d-c1f8-4ad2-9ec9-c365b0805d8a.webp",
+          "price": 55,
+          "image": "/images/rusk/products/chicken-caesar-salad-chicken-egg-bacon.jpg",
           "active": 1,
-          "sort_order": 9,
-          "category_id": 4
+          "sort_order": 2,
+          "category_id": 3
         },
         {
           "id": 41,
-          "name": "Roasted  Butternut Squash, Grapes, Quinoa &  Goat Cheese Salad",
+          "name": "Roasted Butternut Squash, Grapes, Quinoa & Goat Cheese Salad",
           "description": "",
-          "price": 25,
-          "image": "/images/products/crop-1433206e-612b-45b8-8811-064c1e56fecf.webp",
+          "price": 55,
+          "image": "/images/rusk/products/roasted-butternut-squash-grapes-quinoa-goat-cheese-salad.jpg",
           "active": 1,
-          "sort_order": 10,
-          "category_id": 4
+          "sort_order": 3,
+          "category_id": 3
         },
         {
           "id": 42,
           "name": "Crunchy Wedge Blue cheese & Ranch Salad",
           "description": "",
-          "price": 28,
-          "image": "/images/products/crop-1fd433cd-ef16-4a9b-aa35-b3fac8246aa4.webp",
+          "price": 55,
+          "image": "/images/rusk/products/crunchy-wedge-blue-cheese-ranch-salad.jpg",
           "active": 1,
-          "sort_order": 11,
-          "category_id": 4
-        },
+          "sort_order": 4,
+          "category_id": 3
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Sandwiches & Tartines",
+      "description": "",
+      "image": "/images/rusk/products/egg-salad-over-toasted-multigrain-bread.jpg",
+      "parent": null,
+      "sort_order": 3,
+      "products": [
         {
           "id": 43,
           "name": "Egg Salad Over Toasted Multigrain Bread",
           "description": "",
-          "price": 26,
-          "image": "/images/products/crop-df7a9183-25ca-4cb2-93b1-a322a93fb7b4.webp",
+          "price": 55,
+          "image": "/images/rusk/products/egg-salad-over-toasted-multigrain-bread.jpg",
           "active": 1,
-          "sort_order": 12,
+          "sort_order": 0,
           "category_id": 4
         },
         {
-          "id": 991174,
-          "name": "Double Espresso",
-          "description": "",
-          "price": 38,
-          "image": "",
-          "active": 1,
-          "sort_order": 13,
-          "category_id": 4
-        }
-      ],
-      "_name": "COFFEE - Hot / Iced"
-    },
-    {
-      "id": 5,
-      "name": "Beverages",
-      "description": "",
-      "image": "/images/categories/crop-1cc5b3f8-3290-42b3-85b9-1280e4faa49c.webp",
-      "parent": null,
-      "sort_order": 4,
-      "products": [
-        {
           "id": 44,
           "name": "Roast Beef & Horseradish Ciabatta",
-          "description": "Creamy Spanish milk and smooth matcha topped with rich, silky dirty cream for a refreshing and indulgent finish",
-          "price": 29,
-          "image": "/images/products/crop-c316799a-93b5-49a0-aeb9-81ddc88b9393.webp",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/roast-beef-horseradish-ciabatta.jpg",
           "active": 1,
-          "sort_order": 0,
-          "category_id": 5
+          "sort_order": 1,
+          "category_id": 4
         },
         {
           "id": 45,
           "name": "Tuna Avocado Ciabatta",
-          "description": "A refreshing fusion of creamy strawberry sweetness and the smooth, earthy taste of premium matcha. Perfectly layered for a vibrant balance of flavor and color\u00a0in\u00a0every\u00a0sip.",
-          "price": 29,
-          "image": "/images/products/crop-2bb07248-bd82-459d-84b2-085acf2d5b22.webp",
+          "description": "",
+          "price": 39,
+          "image": "/images/rusk/products/tuna-avocado-ciabatta.jpg",
           "active": 1,
-          "sort_order": 1,
-          "category_id": 5
+          "sort_order": 2,
+          "category_id": 4
         },
         {
           "id": 46,
           "name": "Salmon & Philadelphia Bagel",
-          "description": "Our creamy twist on a classic favorite\u2014premium matcha green tea blended with fresh milk and rich vanilla ice cream. Smooth, earthy, and indulgently refreshing, it\u2019s the perfect balance of bold flavor and sweet, creamy delight.",
-          "price": 28,
-          "image": "/images/products/crop-a3717389-841b-4543-8434-b5c9203536a5.webp",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/salmon-philadelphia-bagel.jpg",
           "active": 1,
-          "sort_order": 2,
-          "category_id": 5
+          "sort_order": 3,
+          "category_id": 4
         },
         {
           "id": 47,
           "name": "Tomato Mozzarella & Pesto Focaccia",
           "description": "",
-          "price": 28,
-          "image": "/images/products/crop-d457993c-0587-4261-8af9-64f8bead3119.webp",
+          "price": 39,
+          "image": "/images/rusk/products/tomato-mozzarella-pesto-focaccia.jpg",
           "active": 1,
-          "sort_order": 3,
-          "category_id": 5
+          "sort_order": 4,
+          "category_id": 4
         },
         {
           "id": 48,
           "name": "Avocado On Sourdough Toast",
           "description": "",
-          "price": 28,
-          "image": "/images/products/crop-0ff4e359-f4e8-45cd-9477-2cfcf537173b.webp",
+          "price": 55,
+          "image": "/images/rusk/products/avocado-on-sourdough-toast.jpg",
           "active": 1,
-          "sort_order": 4,
-          "category_id": 5
+          "sort_order": 5,
+          "category_id": 4
         },
         {
           "id": 49,
           "name": "Chicken & Turkey Sourdough Club Sandwich",
-          "description": "A vibrant blend of hibiscus and green tea, infused with zesty lemon mint juice and a splash of passion fruit for a perfectly tangy, tropical refreshment.",
-          "price": 25,
-          "image": "/images/products/crop-7a5632cf-8c49-4b39-8a9c-b0ffc53cc173.webp",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/chicken-turkey-sourdough-club-sandwich.jpg",
           "active": 1,
-          "sort_order": 5,
-          "category_id": 5
+          "sort_order": 6,
+          "category_id": 4
         },
         {
           "id": 50,
           "name": "Brie & Turkey Baguette",
-          "description": "A refreshing fusion of green tea, fresh mint, and zesty lemon, lightly sweetened with smooth vanilla syrup for a bright, balanced twist on a classic.",
-          "price": 25,
-          "image": "/images/products/crop-780a18f7-15be-486d-ae90-4695455aad25.webp",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/brie-turkey-baguette.jpg",
           "active": 1,
-          "sort_order": 6,
-          "category_id": 5
+          "sort_order": 7,
+          "category_id": 4
         },
         {
           "id": 51,
-          "name": "Grilled Goat Cheese with Fig Jam &  Beetroot Jam on Sourdough Bread",
-          "description": "A vibrant, ruby-red infusion of hibiscus tea blended with the tart-sweet essence of pomegranate. Naturally caffeine-free and refreshingly tangy, this iced tea offers a bold, fruity flavor and a crisp finish\u2014perfect for cooling off any time of day.",
-          "price": 25,
-          "image": "/images/products/crop-022fee30-c27d-40a9-8afe-77555ebac8b7.webp",
+          "name": "Grilled Goat Cheese with Fig Jam & Beetroot Jam on Sourdough Bread",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/grilled-goat-cheese-with-fig-jam-beetroot-jam-on-sourdough-bread.jpg",
           "active": 1,
-          "sort_order": 7,
-          "category_id": 5
+          "sort_order": 8,
+          "category_id": 4
         },
         {
           "id": 52,
           "name": "Peanut Butter & Jam Sourdough",
           "description": "",
-          "price": 18,
-          "image": "/images/products/crop-9ceccfa2-c890-480c-9e5d-b0c1ccaa2206.webp",
+          "price": 39,
+          "image": "/images/rusk/products/peanut-butter-jam-sourdough.jpg",
           "active": 1,
-          "sort_order": 8,
-          "category_id": 5
+          "sort_order": 9,
+          "category_id": 4
         },
         {
           "id": 53,
           "name": "Sourdough Grilled Cheese Sandwich",
-          "description": "Choose from our curated selection of premium teas:\n*Jasmine \u2013 Light and floral with a soothing aroma\n*Earl Grey \u2013 Bold black tea infused with bergamot citrus\n*English Breakfast \u2013 A classic, full-bodied morning blend\n*Chamomile \u2013 Naturally caffeine-free and calming",
-          "price": 14,
-          "image": "/images/products/crop-785f5c77-1679-468d-b76d-25e7e83bd869.webp",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/sourdough-grilled-cheese-sandwich.jpg",
           "active": 1,
-          "sort_order": 9,
-          "category_id": 5
+          "sort_order": 10,
+          "category_id": 4
         },
         {
           "id": 54,
           "name": "Fried Chicken Sandwich",
           "description": "",
-          "price": 10,
-          "image": "",
+          "price": 61,
+          "image": "/images/rusk/products/fried-chicken-sandwich.jpg",
           "active": 1,
-          "sort_order": 10,
-          "category_id": 5
+          "sort_order": 11,
+          "category_id": 4
         },
         {
           "id": 55,
           "name": "Caprese Ciabatta Sandwich",
           "description": "",
-          "price": 12,
-          "image": "",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 5
-        },
-        {
-          "id": 779187,
-          "name": "Flatwhite",
-          "description": "",
-          "price": 32,
-          "image": "",
+          "price": 50,
+          "image": "/images/rusk/products/caprese-ciabatta-sandwich.jpg",
           "active": 1,
           "sort_order": 12,
-          "category_id": 5
+          "category_id": 4
         }
-      ],
-      "_name": "Beverages"
+      ]
     },
     {
-      "id": 6,
-      "name": "BAKERY",
+      "id": 5,
+      "name": "Baked Specials",
       "description": "",
-      "image": "/images/categories/crop-5231f49b-ed5b-433d-a528-de864b559dcb.webp",
+      "image": "/images/rusk/products/falafel-flat-bread.jpg",
       "parent": null,
-      "sort_order": 5,
+      "sort_order": 4,
       "products": [
         {
           "id": 56,
           "name": "Falafel Flat Bread",
-          "description": "Freshly baked danish pastry filled with custard cream topped with Fresh Blueberries.",
-          "price": 29,
-          "image": "/images/products/crop-670b5246-27d9-4f23-8719-09fc6b374a66.webp",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/falafel-flat-bread.jpg",
           "active": 1,
           "sort_order": 0,
-          "category_id": 6
+          "category_id": 5
         },
         {
           "id": 57,
-          "name": "Harissa Pepperoni  Flatbread",
-          "description": "Homemade freshly baked Croissant filled with Cream and topped with Pecan Nuts",
-          "price": 29,
-          "image": "/images/products/crop-61b36d3e-6a24-4cf8-ad9b-35d93826dc49.webp",
+          "name": "Harissa Pepperoni Flatbread",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/harissa-pepperoni-flatbread.jpg",
           "active": 1,
           "sort_order": 1,
-          "category_id": 6
+          "category_id": 5
         },
         {
           "id": 58,
           "name": "Cheese Flat Bread",
-          "description": "Freshly baked danish pastry filled with custard cream and Raspberry sauce topped with Fresh Raspberries.",
-          "price": 29,
-          "image": "/images/products/crop-255a5543-94b6-41d6-8427-a1daf5f959f3.webp",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/cheese-flat-bread.jpg",
           "active": 1,
           "sort_order": 2,
-          "category_id": 6
+          "category_id": 5
         },
         {
           "id": 59,
-          "name": "Oven-Baked Truffled Mushroom  Sourdough Flat Bread",
-          "description": "Freshly baked danish pastry filled with cream cheese, served with honey.",
-          "price": 29,
-          "image": "/images/products/crop-dc0591ae-5d30-4d0d-9d50-dc470a869957.webp",
+          "name": "Oven-Baked Truffled Mushroom Sourdough Flat Bread",
+          "description": "",
+          "price": 60,
+          "image": "/images/rusk/products/oven-baked-truffled-mushroom-sourdough-flat-bread.jpg",
           "active": 1,
           "sort_order": 3,
-          "category_id": 6
+          "category_id": 5
         },
         {
           "id": 60,
-          "name": "Oven-Baked Burrata, Tomato & Pesto  Sourdough Flat Bread",
-          "description": "Homemade freshly baked Butter Croissant filled and sprinkled with Zaatar.",
-          "price": 18,
-          "image": "/images/products/crop-96ef8bcf-e650-461d-8523-ac06e6d23cfd.webp",
+          "name": "Oven-Baked Burrata, Tomato & Pesto Sourdough Flat Bread",
+          "description": "",
+          "price": 61,
+          "image": "/images/rusk/products/oven-baked-burrata-tomato-pesto-sourdough-flat-bread.jpg",
           "active": 1,
           "sort_order": 4,
-          "category_id": 6
+          "category_id": 5
         },
         {
           "id": 61,
           "name": "Zaatar & Feta Sourdough Focaccia",
-          "description": "Homemade freshly baked Chocolate Croissant.",
-          "price": 18,
-          "image": "/images/products/crop-6ee86850-eff3-4920-9720-9c3bc69cea95.webp",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/zaatar-feta-sourdough-focaccia.jpg",
           "active": 1,
           "sort_order": 5,
-          "category_id": 6
-        },
+          "category_id": 5
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Signature Special",
+      "description": "",
+      "image": "/images/rusk/products/rusk-cheeseburger.jpg",
+      "parent": null,
+      "sort_order": 5,
+      "products": [
         {
           "id": 62,
           "name": "Rusk Cheeseburger",
-          "description": "Homemade freshly baked Butter Croissant.",
-          "price": 18,
-          "image": "/images/products/crop-cbdfafaf-fb61-43c5-8be4-e49a1b806944.webp",
+          "description": "",
+          "price": 70,
+          "image": "/images/rusk/products/rusk-cheeseburger.jpg",
           "active": 1,
-          "sort_order": 6,
+          "sort_order": 0,
           "category_id": 6
         },
-        {
-          "id": 975431,
-          "name": "Latte",
-          "description": "",
-          "price": 16,
-          "image": "",
-          "active": 1,
-          "sort_order": 7,
-          "category_id": 6
-        },
-        {
-          "id": 259699,
-          "name": "Spanish latte",
-          "description": "",
-          "price": 10,
-          "image": "",
-          "active": 1,
-          "sort_order": 8,
-          "category_id": 6
-        },
-        {
-          "id": 112737,
-          "name": "Capuccino",
-          "description": "",
-          "price": 21,
-          "image": "",
-          "active": 1,
-          "sort_order": 9,
-          "category_id": 6
-        },
-        {
-          "id": 907749,
-          "name": "Cold brew",
-          "description": "",
-          "price": 16,
-          "image": "",
-          "active": 1,
-          "sort_order": 10,
-          "category_id": 6
-        },
-        {
-          "id": 244835,
-          "name": "Matcha",
-          "description": "",
-          "price": 12,
-          "image": "",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 6
-        },
-        {
-          "id": 352341,
-          "name": "Dirty Chai latte",
-          "description": "",
-          "price": 11,
-          "image": "",
-          "active": 1,
-          "sort_order": 12,
-          "category_id": 6
-        }
-      ],
-      "_name": "BAKERY"
-    },
-    {
-      "id": 7,
-      "name": "Honey Toast",
-      "description": "",
-      "image": "/images/categories/crop-603db65a-c788-40b0-9c5e-b3fcc6b9d4af.webp",
-      "parent": null,
-      "sort_order": 6,
-      "products": [
         {
           "id": 63,
           "name": "Rigatoni Pasta",
-          "description": "Crispy toasted Brioche bread drizzled with honey",
-          "price": 25,
-          "image": "/images/products/crop-816325fe-56f4-466d-815b-7a4924120788.webp",
+          "description": "",
+          "price": 70,
+          "image": "/images/rusk/products/rigatoni-pasta.jpg",
           "active": 1,
-          "sort_order": 0,
-          "category_id": 7
+          "sort_order": 1,
+          "category_id": 6
         },
         {
           "id": 64,
           "name": "Cheese Steak Quesadilla",
-          "description": "Crispy toasted Brioche bread that was drizzled with honey, served with cheese",
-          "price": 28,
-          "image": "/images/products/crop-6d72bea8-a229-4504-a64f-92bb760c3d75.webp",
+          "description": "",
+          "price": 60,
+          "image": "/images/rusk/products/cheese-steak-quesadilla.jpg",
           "active": 1,
-          "sort_order": 1,
-          "category_id": 7
-        },
+          "sort_order": 2,
+          "category_id": 6
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Breads",
+      "description": "",
+      "image": "/images/rusk/products/sourdough-loaf.jpg",
+      "parent": null,
+      "sort_order": 6,
+      "products": [
         {
           "id": 65,
           "name": "Sourdough Loaf",
-          "description": "Crispy toasted Brioche bread that was drizzled with honey topped with Vanilla ice cream and served with milk chocolate sauce",
-          "price": 42,
-          "image": "/images/products/crop-e0bc58ec-78d3-4289-8bc5-b6b4a4e1e092.webp",
+          "description": "",
+          "price": 33,
+          "image": "/images/rusk/products/sourdough-loaf.jpg",
           "active": 1,
-          "sort_order": 2,
+          "sort_order": 0,
           "category_id": 7
         },
         {
           "id": 66,
           "name": "Ciabatta",
-          "description": "Crispy toasted Brioche bread that was drizzled with honey served with milk chocolate sauce",
-          "price": 28,
-          "image": "/images/products/crop-0098ae97-bc87-4f0f-86fa-ece90b2133fa.webp",
+          "description": "",
+          "price": 13,
+          "image": "/images/rusk/products/ciabatta.jpg",
           "active": 1,
-          "sort_order": 3,
+          "sort_order": 1,
           "category_id": 7
         },
         {
           "id": 67,
           "name": "Bagel",
-          "description": "Crispy toasted Brioche bread that was drizzled with honey served with milk peanut butter",
-          "price": 28,
-          "image": "/images/products/crop-b3ccaecd-d32b-4d9a-a431-9ff45c1669b2.webp",
+          "description": "",
+          "price": 7,
+          "image": "/images/rusk/products/bagel.jpg",
           "active": 1,
-          "sort_order": 4,
+          "sort_order": 2,
           "category_id": 7
         },
         {
           "id": 68,
           "name": "Simit",
-          "description": "Crispy toasted Brioche bread that was drizzled with honey, filled with creamy custard and hardened caramelized sugar.",
-          "price": 32,
-          "image": "/images/products/crop-b04221e8-aec9-46bd-91c2-bc0972e7f67e.webp",
+          "description": "",
+          "price": 7,
+          "image": "/images/rusk/products/simit.jpg",
           "active": 1,
-          "sort_order": 5,
+          "sort_order": 3,
           "category_id": 7
         },
-        {
-          "id": 428215,
-          "name": "Americano",
-          "description": "",
-          "price": 23,
-          "image": "",
-          "active": 1,
-          "sort_order": 6,
-          "category_id": 7
-        },
-        {
-          "id": 2295,
-          "name": "Cortado",
-          "description": "",
-          "price": 13,
-          "image": "",
-          "active": 1,
-          "sort_order": 7,
-          "category_id": 7
-        },
-        {
-          "id": 65638,
-          "name": "Chai latte",
-          "description": "",
-          "price": 32,
-          "image": "",
-          "active": 1,
-          "sort_order": 8,
-          "category_id": 7
-        },
-        {
-          "id": 72511,
-          "name": "V60",
-          "description": "",
-          "price": 14,
-          "image": "",
-          "active": 1,
-          "sort_order": 9,
-          "category_id": 7
-        },
-        {
-          "id": 15889,
-          "name": "Macchiato",
-          "description": "",
-          "price": 15,
-          "image": "",
-          "active": 1,
-          "sort_order": 10,
-          "category_id": 7
-        },
-        {
-          "id": 275465,
-          "name": "Fresh Orange  Juice",
-          "description": "",
-          "price": 11,
-          "image": "",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 7
-        },
-        {
-          "id": 675176,
-          "name": "Lychee heaven",
-          "description": "",
-          "price": 16,
-          "image": "",
-          "active": 1,
-          "sort_order": 12,
-          "category_id": 7
-        }
-      ],
-      "_name": "Honey Toast"
-    },
-    {
-      "id": 8,
-      "name": "SANDWICHES",
-      "description": "",
-      "image": "/images/categories/crop-83b02e95-0c64-4d51-9345-302adcb82a9b.webp",
-      "parent": null,
-      "sort_order": 7,
-      "products": [
         {
           "id": 69,
           "name": "Baguette",
-          "description": "Freshly baked Tartine bread toasted to perfection filled with Turkey, special sauce, rocca leaves, and Cheese.",
-          "price": 36,
-          "image": "/images/products/crop-93e873bf-d512-43ee-a1d3-03cb008f9f32.webp",
+          "description": "",
+          "price": 13,
+          "image": "/images/rusk/products/baguette.jpg",
           "active": 1,
-          "sort_order": 0,
-          "category_id": 8
+          "sort_order": 4,
+          "category_id": 7
         },
         {
           "id": 70,
           "name": "Multigrain Loaf",
-          "description": "Homemade Freshly baked Tartine bread, filled with grilled Halloumi cheese, Zaatar and Olive Oil.",
-          "price": 35,
-          "image": "/images/products/crop-dbf9b240-81ab-4b1a-bae8-9583a150c848.webp",
+          "description": "",
+          "price": 31,
+          "image": "/images/rusk/products/multigrain-loaf.jpg",
           "active": 1,
-          "sort_order": 1,
-          "category_id": 8
+          "sort_order": 5,
+          "category_id": 7
         },
         {
           "id": 71,
           "name": "Brioche Loaf",
-          "description": "Freshly baked Tartine bread toasted to perfection, filled with Tuna,Special spicy sauce and Jalapeno.",
-          "price": 38,
-          "image": "/images/products/crop-a728f222-d292-4ef3-af69-fce877d45897.webp",
+          "description": "",
+          "price": 28,
+          "image": "/images/rusk/products/brioche-loaf.jpg",
           "active": 1,
-          "sort_order": 2,
-          "category_id": 8
+          "sort_order": 6,
+          "category_id": 7
         },
         {
           "id": 72,
           "name": "Focaccia",
-          "description": "Homemade Freshly baked Tartine bread, smashed Avocado, Grilled chicken, and cheese.",
-          "price": 38,
-          "image": "/images/products/crop-59574632-500a-4b44-9d0f-2f7960eee038.webp",
-          "active": 1,
-          "sort_order": 3,
-          "category_id": 8
-        },
-        {
-          "id": 630346,
-          "name": "Pink lemonade",
-          "description": "",
-          "price": 38,
-          "image": "",
-          "active": 1,
-          "sort_order": 4,
-          "category_id": 8
-        },
-        {
-          "id": 281374,
-          "name": "Amber iced tea",
-          "description": "",
-          "price": 23,
-          "image": "",
-          "active": 1,
-          "sort_order": 5,
-          "category_id": 8
-        },
-        {
-          "id": 29656,
-          "name": "Classic mojito",
           "description": "",
           "price": 31,
-          "image": "",
-          "active": 1,
-          "sort_order": 6,
-          "category_id": 8
-        },
-        {
-          "id": 22081,
-          "name": "Mixed berries mojito",
-          "description": "",
-          "price": 17,
-          "image": "",
+          "image": "/images/rusk/products/focaccia.jpg",
           "active": 1,
           "sort_order": 7,
-          "category_id": 8
+          "category_id": 7
         },
-        {
-          "id": 914536,
-          "name": "Strawberry mojito",
-          "description": "",
-          "price": 25,
-          "image": "",
-          "active": 1,
-          "sort_order": 8,
-          "category_id": 8
-        },
-        {
-          "id": 542831,
-          "name": "Cranberry cooler",
-          "description": "",
-          "price": 30,
-          "image": "",
-          "active": 1,
-          "sort_order": 9,
-          "category_id": 8
-        },
-        {
-          "id": 722588,
-          "name": "Amber Iced Tea 1Ltr",
-          "description": "",
-          "price": 11,
-          "image": "",
-          "active": 1,
-          "sort_order": 10,
-          "category_id": 8
-        },
-        {
-          "id": 798491,
-          "name": "Ruby Iced Tea 1Ltr",
-          "description": "",
-          "price": 39,
-          "image": "",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 8
-        },
-        {
-          "id": 997612,
-          "name": "Ruby Iced Tea",
-          "description": "",
-          "price": 11,
-          "image": "",
-          "active": 1,
-          "sort_order": 12,
-          "category_id": 8
-        }
-      ],
-      "_name": "SANDWICHES"
-    },
-    {
-      "id": 9,
-      "name": "SALAD",
-      "description": "",
-      "image": "/images/categories/crop-f044c873-01bf-4802-9843-039d48623ee3.webp",
-      "parent": null,
-      "sort_order": 8,
-      "products": [
         {
           "id": 73,
           "name": "Fougasse",
-          "description": "A fresh and nutritious salad combining kale, white and red quinoa, pomegranate, raspberries, feta cheese, baby mozzarella, and grilled chicken, finished with a sweet maple-honey balsamic dressing.",
-          "price": 45,
-          "image": "/images/products/crop-ae738eae-3884-4e03-94f4-7264798ad426.webp",
+          "description": "",
+          "price": 7,
+          "image": "/images/rusk/products/fougasse.jpg",
           "active": 1,
-          "sort_order": 0,
-          "category_id": 9
+          "sort_order": 8,
+          "category_id": 7
         },
         {
           "id": 74,
           "name": "Sourdough Multigrain",
-          "description": "Special Caesar Salad with crisp iceberg lettuce topped with tender marinated chicken, crunchy seasoned croutons, shaved parmesan cheese, and our rich homemade Caesar dressing. A creamy, savory classic in every bite.",
-          "price": 45,
-          "image": "/images/products/crop-2575c64b-e646-4acf-a64b-fa4d1d0d8c11.webp",
+          "description": "",
+          "price": 44,
+          "image": "/images/rusk/products/sourdough-multigrain.jpg",
           "active": 1,
-          "sort_order": 1,
-          "category_id": 9
-        },
+          "sort_order": 9,
+          "category_id": 7
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Desserts",
+      "description": "",
+      "image": "/images/rusk/products/berry-hot-sponge.jpg",
+      "parent": null,
+      "sort_order": 7,
+      "products": [
         {
           "id": 75,
           "name": "Berry Hot Sponge",
-          "description": "Grilled Chicken with Mix Green leaves, Cherry Tomato, Sweet Corn, Fresh Avocado and Mozarella Cheese Balls.",
-          "price": 54,
-          "image": "/images/products/crop-41af48a5-a2a0-4f35-8816-968042dc6d90.webp",
-          "active": 1,
-          "sort_order": 2,
-          "category_id": 9
-        },
-        {
-          "id": 288513,
-          "name": "Healthy Blueberry & Banana Smoothie",
           "description": "",
-          "price": 31,
-          "image": "",
+          "price": 45,
+          "image": "/images/rusk/products/berry-hot-sponge.jpg",
           "active": 1,
-          "sort_order": 3,
-          "category_id": 9
+          "sort_order": 0,
+          "category_id": 8
         },
-        {
-          "id": 948065,
-          "name": "Tiramisu Latte",
-          "description": "",
-          "price": 21,
-          "image": "",
-          "active": 1,
-          "sort_order": 4,
-          "category_id": 9
-        },
-        {
-          "id": 823952,
-          "name": "Healthy Protein Shake",
-          "description": "",
-          "price": 34,
-          "image": "",
-          "active": 1,
-          "sort_order": 5,
-          "category_id": 9
-        },
-        {
-          "id": 523918,
-          "name": "Karak Tea",
-          "description": "",
-          "price": 38,
-          "image": "",
-          "active": 1,
-          "sort_order": 6,
-          "category_id": 9
-        },
-        {
-          "id": 448800,
-          "name": "Rusk Hot Chocolate",
-          "description": "",
-          "price": 18,
-          "image": "",
-          "active": 1,
-          "sort_order": 7,
-          "category_id": 9
-        },
-        {
-          "id": 623012,
-          "name": "Royal Breakfast",
-          "description": "",
-          "price": 18,
-          "image": "",
-          "active": 1,
-          "sort_order": 8,
-          "category_id": 9
-        },
-        {
-          "id": 899144,
-          "name": "Chamomile Breeze",
-          "description": "",
-          "price": 34,
-          "image": "",
-          "active": 1,
-          "sort_order": 9,
-          "category_id": 9
-        },
-        {
-          "id": 212992,
-          "name": "Earl Grey Flora",
-          "description": "",
-          "price": 20,
-          "image": "",
-          "active": 1,
-          "sort_order": 10,
-          "category_id": 9
-        },
-        {
-          "id": 959410,
-          "name": "Moroccan Nights",
-          "description": "",
-          "price": 31,
-          "image": "",
-          "active": 1,
-          "sort_order": 11,
-          "category_id": 9
-        },
-        {
-          "id": 837129,
-          "name": "Soda (Sprite)",
-          "description": "",
-          "price": 37,
-          "image": "",
-          "active": 1,
-          "sort_order": 12,
-          "category_id": 9
-        }
-      ],
-      "_name": "SALAD"
-    },
-    {
-      "id": 10,
-      "name": "TRAY CAKES",
-      "description": "",
-      "image": "/images/categories/crop-f7868204-2ce5-4245-b832-52185587be21.webp",
-      "parent": null,
-      "sort_order": 9,
-      "products": [
         {
           "id": 76,
           "name": "Date & Tahini Cake",
-          "description": "A rich chocolate sponge layered with smooth vanilla cream, coated in decadent chocolate ganache, topped with crispy flakes and pecan nuts, and finished with chocolate syrup for an indulgent and crunchy chocolate experience.",
-          "price": 290,
-          "image": "/images/products/crop-27d210f2-8747-41f5-844a-733c2f7b7ad7.webp",
+          "description": "",
+          "price": 28,
+          "image": "/images/rusk/products/date-tahini-cake.jpg",
           "active": 1,
           "sort_order": 1,
-          "category_id": 10
+          "category_id": 8
         },
         {
           "id": 77,
           "name": "Pecan Pie Blondie",
-          "description": "Pecan cake with crunchy pecans and a smooth caramel touch. Perfect with coffee. Gluten-free.",
-          "price": 290,
-          "image": "/images/products/crop-b878b58a-138f-40e5-9688-bcc3f44e88fb.webp",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/pecan-pie-blondie.jpg",
           "active": 1,
           "sort_order": 2,
-          "category_id": 10
+          "category_id": 8
         },
         {
           "id": 78,
           "name": "French toast",
           "description": "",
-          "price": 290,
-          "image": "/images/products/crop-5ff9fb0c-0574-4743-b789-0cada09f0489.webp",
+          "price": 61,
+          "image": "/images/rusk/products/french-toast.jpg",
+          "active": 1,
+          "sort_order": 3,
+          "category_id": 8
+        },
+        {
+          "id": 79,
+          "name": "Sticky Date Pudding with Vanilla Ice Cream",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/sticky-date-pudding-with-vanilla-ice-cream.jpg",
+          "active": 1,
+          "sort_order": 4,
+          "category_id": 8
+        },
+        {
+          "id": 80,
+          "name": "Warm Chocolate Brownie with Vanilla Ice Cream",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/warm-chocolate-brownie-with-vanilla-ice-cream.jpg",
+          "active": 1,
+          "sort_order": 5,
+          "category_id": 8
+        },
+        {
+          "id": 81,
+          "name": "Caramelized Toasted Brioche Brulee with Vanilla Ice Cream",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/caramelized-toasted-brioche-brulee-with-vanilla-ice-cream.jpg",
+          "active": 1,
+          "sort_order": 6,
+          "category_id": 8
+        },
+        {
+          "id": 82,
+          "name": "Strawberry Cheesecake Crumble Bun",
+          "description": "",
+          "price": 35,
+          "image": "/images/rusk/products/strawberry-cheesecake-crumble-bun.jpg",
+          "active": 1,
+          "sort_order": 7,
+          "category_id": 8
+        },
+        {
+          "id": 83,
+          "name": "The Ultimate Chocolate Hazelnut Cookie",
+          "description": "",
+          "price": 55,
+          "image": "/images/rusk/products/the-ultimate-chocolate-hazelnut-cookie.jpg",
+          "active": 1,
+          "sort_order": 8,
+          "category_id": 8
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Cakes",
+      "description": "",
+      "image": "/images/rusk/products/orange-roasted-peach-ricotta-cake.jpg",
+      "parent": null,
+      "sort_order": 8,
+      "products": [
+        {
+          "id": 84,
+          "name": "Orange & Roasted Peach Ricotta Cake",
+          "description": "",
+          "price": 32,
+          "image": "/images/rusk/products/orange-roasted-peach-ricotta-cake.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 9
+        },
+        {
+          "id": 85,
+          "name": "Banana Bread & Peanut Butter",
+          "description": "",
+          "price": 34,
+          "image": "/images/rusk/products/banana-bread-peanut-butter.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 9
+        },
+        {
+          "id": 86,
+          "name": "Custard Fraisier Cake Slice",
+          "description": "",
+          "price": 40,
+          "image": "/images/rusk/products/custard-fraisier-cake-slice.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 9
+        },
+        {
+          "id": 87,
+          "name": "Chocolate Pistachio Cake Slice",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/chocolate-pistachio-cake-slice.jpg",
+          "active": 1,
+          "sort_order": 3,
+          "category_id": 9
+        },
+        {
+          "id": 88,
+          "name": "Blueberry Cheesecake Slice",
+          "description": "",
+          "price": 45,
+          "image": "/images/rusk/products/blueberry-cheesecake-slice.jpg",
+          "active": 1,
+          "sort_order": 4,
+          "category_id": 9
+        },
+        {
+          "id": 89,
+          "name": "Tangy Lemon Cake Slice",
+          "description": "",
+          "price": 42,
+          "image": "/images/rusk/products/tangy-lemon-cake-slice.jpg",
+          "active": 1,
+          "sort_order": 5,
+          "category_id": 9
+        },
+        {
+          "id": 90,
+          "name": "Toasted Coconut Chocolate Cake Slice",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/toasted-coconut-chocolate-cake-slice.jpg",
+          "active": 1,
+          "sort_order": 6,
+          "category_id": 9
+        },
+        {
+          "id": 91,
+          "name": "Chocolate Peanut Butter Cake Slice",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/chocolate-peanut-butter-cake-slice.jpg",
+          "active": 1,
+          "sort_order": 7,
+          "category_id": 9
+        },
+        {
+          "id": 92,
+          "name": "One slice of Isphan Sponge Cake",
+          "description": "",
+          "price": 50,
+          "image": "/images/rusk/products/one-slice-of-isphan-sponge-cake.jpg",
+          "active": 1,
+          "sort_order": 8,
+          "category_id": 9
+        },
+        {
+          "id": 93,
+          "name": "Carrot & Walnut Cake Slice",
+          "description": "",
+          "price": 33,
+          "image": "/images/rusk/products/carrot-walnut-cake-slice.jpg",
+          "active": 1,
+          "sort_order": 9,
+          "category_id": 9
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Specialty Coffee",
+      "description": "",
+      "image": "/images/rusk/products/rose-cream-top-latte.jpg",
+      "parent": null,
+      "sort_order": 9,
+      "products": [
+        {
+          "id": 94,
+          "name": "Rose Cream Top Latte",
+          "description": "",
+          "price": 30,
+          "image": "/images/rusk/products/rose-cream-top-latte.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 10
+        },
+        {
+          "id": 95,
+          "name": "Espresso",
+          "description": "",
+          "price": 18,
+          "image": "/images/rusk/products/espresso.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 10
+        },
+        {
+          "id": 96,
+          "name": "Double Espresso",
+          "description": "",
+          "price": 20,
+          "image": "/images/rusk/products/double-espresso.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 10
+        },
+        {
+          "id": 97,
+          "name": "Flatwhite",
+          "description": "",
+          "price": 26,
+          "image": "/images/rusk/products/flatwhite.jpg",
           "active": 1,
           "sort_order": 3,
           "category_id": 10
         },
         {
-          "id": 79,
-          "name": "Sticky Date Pudding with Vanilla Ice Cream",
-          "description": "Our Best selling Tiramisu is made up of Premium quality espresso.",
-          "price": 290,
-          "image": "/images/products/crop-ad834524-ef06-4dad-aceb-1fc06e446336.webp",
+          "id": 98,
+          "name": "Latte",
+          "description": "",
+          "price": 26,
+          "image": "/images/rusk/products/latte.jpg",
           "active": 1,
           "sort_order": 4,
           "category_id": 10
         },
         {
-          "id": 599730,
-          "name": "Sparkling water",
+          "id": 99,
+          "name": "Spanish latte",
           "description": "",
-          "price": 18,
-          "image": "",
-          "active": 1,
-          "sort_order": 4,
-          "category_id": 10
-        },
-        {
-          "id": 602306,
-          "name": "Still water",
-          "description": "",
-          "price": 30,
-          "image": "",
+          "price": 28,
+          "image": "/images/rusk/products/spanish-latte.jpg",
           "active": 1,
           "sort_order": 5,
           "category_id": 10
         },
         {
-          "id": 835595,
-          "name": "Soda (coca-cola light)",
+          "id": 100,
+          "name": "Capuccino",
           "description": "",
-          "price": 14,
-          "image": "",
+          "price": 26,
+          "image": "/images/rusk/products/capuccino.jpg",
           "active": 1,
           "sort_order": 6,
           "category_id": 10
         },
         {
-          "id": 140428,
-          "name": "Soda (coca-cola)",
+          "id": 101,
+          "name": "Cold brew",
           "description": "",
-          "price": 40,
-          "image": "",
+          "price": 34,
+          "image": "/images/rusk/products/cold-brew.jpg",
           "active": 1,
           "sort_order": 7,
           "category_id": 10
         },
         {
-          "id": 289300,
-          "name": "French fries",
+          "id": 102,
+          "name": "Matcha",
           "description": "",
-          "price": 26,
-          "image": "",
+          "price": 28,
+          "image": "/images/rusk/products/matcha.jpg",
           "active": 1,
           "sort_order": 8,
           "category_id": 10
         },
         {
-          "id": 203529,
-          "name": "Truffle French Fries",
+          "id": 103,
+          "name": "Dirty Chai latte",
           "description": "",
-          "price": 32,
-          "image": "",
+          "price": 28,
+          "image": "/images/rusk/products/dirty-chai-latte.jpg",
           "active": 1,
           "sort_order": 9,
           "category_id": 10
         },
         {
-          "id": 532804,
-          "name": "Eggs 2 PCS (Poached, Scrambled, Fried Egg)",
+          "id": 104,
+          "name": "Americano",
           "description": "",
-          "price": 35,
-          "image": "",
+          "price": 22,
+          "image": "/images/rusk/products/americano.jpg",
           "active": 1,
           "sort_order": 10,
           "category_id": 10
         },
         {
-          "id": 735853,
-          "name": "Avocado",
+          "id": 105,
+          "name": "Cortado",
           "description": "",
-          "price": 29,
-          "image": "",
+          "price": 22,
+          "image": "/images/rusk/products/cortado.jpg",
           "active": 1,
           "sort_order": 11,
           "category_id": 10
         },
         {
-          "id": 611434,
-          "name": "Chicken",
+          "id": 106,
+          "name": "Chai latte",
           "description": "",
-          "price": 15,
-          "image": "",
+          "price": 26,
+          "image": "/images/rusk/products/chai-latte.jpg",
           "active": 1,
           "sort_order": 12,
           "category_id": 10
+        },
+        {
+          "id": 107,
+          "name": "V60",
+          "description": "",
+          "price": 26,
+          "image": "/images/rusk/products/v60.jpg",
+          "active": 1,
+          "sort_order": 13,
+          "category_id": 10
+        },
+        {
+          "id": 108,
+          "name": "Macchiato",
+          "description": "",
+          "price": 24,
+          "image": "/images/rusk/products/macchiato.jpg",
+          "active": 1,
+          "sort_order": 14,
+          "category_id": 10
         }
-      ],
-      "_name": "TRAY CAKES"
+      ]
     },
     {
       "id": 11,
-      "name": "Packages & Boxes",
+      "name": "Juices",
       "description": "",
-      "image": "/images/categories/crop-2f29c150-2f36-4d45-a2cd-084eafaa59cd.webp",
+      "image": "/images/rusk/products/fresh-orange-juice.jpg",
       "parent": null,
       "sort_order": 10,
       "products": [
         {
-          "id": 80,
-          "name": "Warm Chocolate Brownie with Vanilla Ice Cream",
-          "description": "Mini Croissant box, mix sandwiches Box , wooden cheese plater , crunchy cake Box.",
-          "price": 950,
-          "image": "/images/products/crop-e0a83b87-31cd-45ac-a7c2-f87fe37e5fc3.webp",
+          "id": 109,
+          "name": "Fresh Orange Juice",
+          "description": "",
+          "price": 25,
+          "image": "/images/rusk/products/fresh-orange-juice.jpg",
           "active": 1,
           "sort_order": 0,
           "category_id": 11
         },
         {
-          "id": 81,
-          "name": "Caramelized Toasted Brioche Brulee  with Vanilla Ice Cream",
-          "description": "6 soft brioche sandwiches with rich, flavorful fillings: zaatar & cream cheese with olives, scrambled egg & cheddar, chicken with Japanese mayo, spicy tuna pesto, smoked turkey, and halloumi with sundried tomato. A gourmet mix for every craving.",
-          "price": 215,
-          "image": "/images/products/crop-55a9c4d4-fc66-4acf-87ac-950777fc0502.webp",
+          "id": 110,
+          "name": "Lychee heaven",
+          "description": "",
+          "price": 32,
+          "image": "/images/rusk/products/lychee-heaven.jpg",
           "active": 1,
           "sort_order": 1,
           "category_id": 11
         },
         {
-          "id": 82,
-          "name": "Strawberry Cheesecake Crumble Bun",
-          "description": "6  mini croissants with premium fillings: cream cheese & egg, smoked turkey, chicken guac, spicy tuna, falafel tahina, and mozzarella pesto. Perfect for sharing or solo cravings.",
-          "price": 195,
-          "image": "/images/products/crop-8a754ea6-c14b-452b-88fb-cbd634b47285.webp",
+          "id": 111,
+          "name": "Pink lemonade",
+          "description": "",
+          "price": 25,
+          "image": "/images/rusk/products/pink-lemonade.jpg",
           "active": 1,
           "sort_order": 2,
           "category_id": 11
         },
         {
-          "id": 521507,
-          "name": "Beef Bacon",
+          "id": 112,
+          "name": "Amber iced tea",
           "description": "",
-          "price": 29,
-          "image": "",
+          "price": 28,
+          "image": "/images/rusk/products/amber-iced-tea.jpg",
           "active": 1,
           "sort_order": 3,
           "category_id": 11
         },
         {
-          "id": 838641,
-          "name": "Smoked Salmon",
+          "id": 113,
+          "name": "Classic mojito",
           "description": "",
-          "price": 31,
-          "image": "",
+          "price": 35,
+          "image": "/images/rusk/products/classic-mojito.jpg",
           "active": 1,
           "sort_order": 4,
           "category_id": 11
         },
         {
-          "id": 720812,
-          "name": "Cheese",
+          "id": 114,
+          "name": "Mixed berries mojito",
           "description": "",
-          "price": 11,
-          "image": "",
+          "price": 38,
+          "image": "/images/rusk/products/mixed-berries-mojito.jpg",
           "active": 1,
           "sort_order": 5,
           "category_id": 11
         },
         {
-          "id": 579185,
-          "name": "Red Pepper Dip",
+          "id": 115,
+          "name": "Strawberry mojito",
           "description": "",
-          "price": 36,
-          "image": "",
+          "price": 38,
+          "image": "/images/rusk/products/strawberry-mojito.jpg",
           "active": 1,
           "sort_order": 6,
           "category_id": 11
         },
         {
-          "id": 426594,
-          "name": "Pesto & Walnut Dip",
+          "id": 116,
+          "name": "Cranberry cooler",
           "description": "",
-          "price": 39,
-          "image": "",
+          "price": 28,
+          "image": "/images/rusk/products/cranberry-cooler.jpg",
           "active": 1,
           "sort_order": 7,
           "category_id": 11
         },
         {
-          "id": 667496,
-          "name": "Hashbrown",
+          "id": 117,
+          "name": "Amber Iced Tea 1Ltr",
           "description": "",
-          "price": 35,
-          "image": "",
+          "price": 140,
+          "image": "/images/rusk/products/amber-iced-tea-1ltr.jpg",
           "active": 1,
           "sort_order": 8,
           "category_id": 11
         },
         {
-          "id": 214324,
-          "name": "Mushroom",
+          "id": 118,
+          "name": "Ruby Iced Tea 1Ltr",
           "description": "",
-          "price": 38,
-          "image": "",
+          "price": 140,
+          "image": "/images/rusk/products/ruby-iced-tea-1ltr.jpg",
           "active": 1,
           "sort_order": 9,
           "category_id": 11
         },
         {
-          "id": 789339,
-          "name": "Seasonal Vegetables",
+          "id": 119,
+          "name": "Ruby Iced Tea",
           "description": "",
-          "price": 22,
-          "image": "",
+          "price": 28,
+          "image": "/images/rusk/products/ruby-iced-tea.png",
           "active": 1,
           "sort_order": 10,
           "category_id": 11
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Signatures",
+      "description": "",
+      "image": "/images/rusk/products/healthy-blueberry-banana-smoothie.jpg",
+      "parent": null,
+      "sort_order": 11,
+      "products": [
+        {
+          "id": 120,
+          "name": "Healthy Blueberry & Banana Smoothie",
+          "description": "",
+          "price": 45,
+          "image": "/images/rusk/products/healthy-blueberry-banana-smoothie.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 12
         },
         {
-          "id": 465626,
-          "name": "Honey",
+          "id": 121,
+          "name": "Tiramisu Latte",
           "description": "",
-          "price": 27,
-          "image": "",
+          "price": 30,
+          "image": "/images/rusk/products/tiramisu-latte.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 12
+        },
+        {
+          "id": 122,
+          "name": "Healthy Protein Shake",
+          "description": "",
+          "price": 45,
+          "image": "/images/rusk/products/healthy-protein-shake.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 12
+        },
+        {
+          "id": 123,
+          "name": "Karak Tea",
+          "description": "",
+          "price": 18,
+          "image": "/images/rusk/products/karak-tea.jpg",
+          "active": 1,
+          "sort_order": 3,
+          "category_id": 12
+        },
+        {
+          "id": 124,
+          "name": "Rusk Hot Chocolate",
+          "description": "",
+          "price": 28,
+          "image": "/images/rusk/products/rusk-hot-chocolate.jpg",
+          "active": 1,
+          "sort_order": 4,
+          "category_id": 12
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Tea",
+      "description": "",
+      "image": "/images/rusk/products/royal-breakfast.jpg",
+      "parent": null,
+      "sort_order": 12,
+      "products": [
+        {
+          "id": 125,
+          "name": "Royal Breakfast",
+          "description": "",
+          "price": 25,
+          "image": "/images/rusk/products/royal-breakfast.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 13
+        },
+        {
+          "id": 126,
+          "name": "Chamomile Breeze",
+          "description": "",
+          "price": 25,
+          "image": "/images/rusk/products/chamomile-breeze.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 13
+        },
+        {
+          "id": 127,
+          "name": "Earl Grey Flora",
+          "description": "",
+          "price": 25,
+          "image": "/images/rusk/products/earl-grey-flora.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 13
+        },
+        {
+          "id": 128,
+          "name": "Moroccan Nights",
+          "description": "",
+          "price": 25,
+          "image": "/images/rusk/products/moroccan-nights.jpg",
+          "active": 1,
+          "sort_order": 3,
+          "category_id": 13
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Softdrinks",
+      "description": "",
+      "image": "/images/rusk/products/soda-sprite.webp",
+      "parent": null,
+      "sort_order": 13,
+      "products": [
+        {
+          "id": 129,
+          "name": "Soda (Sprite)",
+          "description": "",
+          "price": 15,
+          "image": "/images/rusk/products/soda-sprite.webp",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 14
+        },
+        {
+          "id": 130,
+          "name": "Sparkling water",
+          "description": "",
+          "price": 18,
+          "image": "/images/rusk/products/sparkling-water.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 14
+        },
+        {
+          "id": 131,
+          "name": "Still water",
+          "description": "",
+          "price": 15,
+          "image": "/images/rusk/products/still-water.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 14
+        },
+        {
+          "id": 132,
+          "name": "Soda (coca-cola light)",
+          "description": "",
+          "price": 15,
+          "image": "/images/rusk/products/soda-coca-cola-light.png",
+          "active": 1,
+          "sort_order": 3,
+          "category_id": 14
+        },
+        {
+          "id": 133,
+          "name": "Soda (coca-cola)",
+          "description": "",
+          "price": 15,
+          "image": "/images/rusk/products/soda-coca-cola.png",
+          "active": 1,
+          "sort_order": 4,
+          "category_id": 14
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Sides",
+      "description": "",
+      "image": "/images/rusk/products/french-fries.jpg",
+      "parent": null,
+      "sort_order": 14,
+      "products": [
+        {
+          "id": 134,
+          "name": "French fries",
+          "description": "",
+          "price": 22,
+          "image": "/images/rusk/products/french-fries.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 15
+        },
+        {
+          "id": 135,
+          "name": "Truffle French Fries",
+          "description": "",
+          "price": 30,
+          "image": "/images/rusk/products/truffle-french-fries.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 15
+        },
+        {
+          "id": 136,
+          "name": "Eggs 2 PCS (Poached, Scrambled, Fried Egg)",
+          "description": "",
+          "price": 17,
+          "image": "/images/rusk/products/eggs-2-pcs-poached-scrambled-fried-egg.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 15
+        },
+        {
+          "id": 137,
+          "name": "Avocado",
+          "description": "",
+          "price": 22,
+          "image": "/images/rusk/products/avocado.jpg",
+          "active": 1,
+          "sort_order": 3,
+          "category_id": 15
+        },
+        {
+          "id": 138,
+          "name": "Chicken",
+          "description": "",
+          "price": 22,
+          "image": "/images/rusk/products/chicken.jpg",
+          "active": 1,
+          "sort_order": 4,
+          "category_id": 15
+        },
+        {
+          "id": 139,
+          "name": "Beef Bacon",
+          "description": "",
+          "price": 20,
+          "image": "/images/rusk/products/beef-bacon.jpg",
+          "active": 1,
+          "sort_order": 5,
+          "category_id": 15
+        },
+        {
+          "id": 140,
+          "name": "Smoked Salmon",
+          "description": "",
+          "price": 20,
+          "image": "/images/rusk/products/smoked-salmon.jpg",
+          "active": 1,
+          "sort_order": 6,
+          "category_id": 15
+        },
+        {
+          "id": 141,
+          "name": "Cheese",
+          "description": "",
+          "price": 6,
+          "image": "/images/rusk/products/cheese.jpg",
+          "active": 1,
+          "sort_order": 7,
+          "category_id": 15
+        },
+        {
+          "id": 142,
+          "name": "Red Pepper Dip",
+          "description": "",
+          "price": 6,
+          "image": "/images/rusk/products/red-pepper-dip.jpg",
+          "active": 1,
+          "sort_order": 8,
+          "category_id": 15
+        },
+        {
+          "id": 143,
+          "name": "Pesto & Walnut Dip",
+          "description": "",
+          "price": 6,
+          "image": "/images/rusk/products/pesto-walnut-dip.jpg",
+          "active": 1,
+          "sort_order": 9,
+          "category_id": 15
+        },
+        {
+          "id": 144,
+          "name": "Hashbrown",
+          "description": "",
+          "price": 15,
+          "image": "/images/rusk/products/hashbrown.jpg",
+          "active": 1,
+          "sort_order": 10,
+          "category_id": 15
+        },
+        {
+          "id": 145,
+          "name": "Mushroom",
+          "description": "",
+          "price": 5,
+          "image": "/images/rusk/products/mushroom.jpg",
           "active": 1,
           "sort_order": 11,
-          "category_id": 11
+          "category_id": 15
         },
         {
-          "id": 294991,
-          "name": "Jam",
+          "id": 146,
+          "name": "Seasonal Vegetables",
           "description": "",
-          "price": 24,
-          "image": "",
+          "price": 5,
+          "image": "/images/rusk/products/seasonal-vegetables.jpg",
           "active": 1,
           "sort_order": 12,
-          "category_id": 11
+          "category_id": 15
+        },
+        {
+          "id": 147,
+          "name": "Honey",
+          "description": "",
+          "price": 6,
+          "image": "/images/rusk/products/honey.jpg",
+          "active": 1,
+          "sort_order": 13,
+          "category_id": 15
+        },
+        {
+          "id": 148,
+          "name": "Jam",
+          "description": "",
+          "price": 6,
+          "image": "/images/rusk/products/jam.jpg",
+          "active": 1,
+          "sort_order": 14,
+          "category_id": 15
+        },
+        {
+          "id": 149,
+          "name": "Yoghurt",
+          "description": "",
+          "price": 10,
+          "image": "/images/rusk/products/yoghurt.jpg",
+          "active": 1,
+          "sort_order": 15,
+          "category_id": 15
+        },
+        {
+          "id": 150,
+          "name": "Vanilla Ice Cream",
+          "description": "",
+          "price": 12,
+          "image": "/images/rusk/products/vanilla-ice-cream.jpg",
+          "active": 1,
+          "sort_order": 16,
+          "category_id": 15
         }
-      ],
-      "_name": "Packages & Boxes"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Alternative Milk",
+      "description": "",
+      "image": "/images/rusk/products/almond-milk-20ml.jpg",
+      "parent": null,
+      "sort_order": 15,
+      "products": [
+        {
+          "id": 151,
+          "name": "Almond Milk 20ml",
+          "description": "",
+          "price": 5,
+          "image": "/images/rusk/products/almond-milk-20ml.jpg",
+          "active": 1,
+          "sort_order": 0,
+          "category_id": 16
+        },
+        {
+          "id": 152,
+          "name": "Oat milk 20ml",
+          "description": "",
+          "price": 5,
+          "image": "/images/rusk/products/oat-milk-20ml.jpg",
+          "active": 1,
+          "sort_order": 1,
+          "category_id": 16
+        },
+        {
+          "id": 153,
+          "name": "Coconut Milk 20ml",
+          "description": "",
+          "price": 5,
+          "image": "/images/rusk/products/coconut-milk-20ml.jpg",
+          "active": 1,
+          "sort_order": 2,
+          "category_id": 16
+        }
+      ]
     }
   ]
 }

@@ -23,7 +23,7 @@ export default function AdminLogin({ onLogin, notice }) {
   return (
     <div className="login-screen">
       <form className="login-card" onSubmit={submit}>
-        <span className="login-mark">B</span>
+        <span className="login-mark">R</span>
         <h1>Rusk</h1>
         <p>Admin dashboard — sign in to manage your site.</p>
         {notice && <p className="form-status err">{notice}</p>}

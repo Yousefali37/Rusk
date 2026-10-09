@@ -71,7 +71,7 @@ export default function Footer({ site }) {
             viewport={{ once: true, amount: 0.6 }}
             transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           >
-            <img className="brand-logo" src="/logo.webp" alt={site.site_name || 'Rusk'} />
+            <img className="brand-logo" src="/images/rusk/logo.png" alt={site.site_name || 'Rusk'} />
             <span className="brand-name">{site.site_name || 'Rusk'}</span>
             <p className="footer-text">{site.footer_text || 'Speciality coffee & bakery, made fresh every day in Doha 7GPF QV Doha.'}</p>
 
